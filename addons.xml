@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<!--############################ KODI 21 ############################-->
+<!-- KODI 21 -->
 <addon id="skin.rnspi" version="21.1.0" name="Skin RNSPI" provider-name="Maltsev">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0"/>
@@ -18,11 +18,6 @@
 		<description lang="ru">Обложка Kodi, реализующая управление кнопками через CAN-шину. Поддерживаемые модели: RNS D, RNS E, RNS JP3 https://sites.google.com/view/rnspi </description>
 		<platform>all</platform>
 		<website>https://sites.google.com/view/rnspi/</website>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<screenshot>resources/screenshot-01.png</screenshot>
-			<screenshot>resources/screenshot-02.png</screenshot>
-		</assets>
 	</extension>
 </addon>
 
