@@ -193,16 +193,15 @@ kodi_service_run() {
     systemctl start kodi
     green "     Kodi service started. ✅"
 	sleep 30
+	
 }
 # Function to stop Kodi if running
 kodi_stop_if_running() {
     echo "Checking Kodi status and addons directory..."
-	sleep 30
-    if systemctl is-active --quiet kodi && [ -d /home/pi/.kodi/addons/ ]; then
+    if [ -d /home/pi/.kodi/addons/ ]; then
         green "Kodi is running and addons directory exists. Stopping Kodi service..."
-        systemctl stop kodi
-        
-        # Проверяем, успешно ли остановлен
+		systemctl stop kodi
+		sleep 30
         if systemctl is-active --quiet kodi; then
             red "Error: Failed to stop Kodi service." >&2
             return 1  # Возвращаем ошибку, чтобы скрипт мог обработать
@@ -213,6 +212,7 @@ kodi_stop_if_running() {
     else
         red "Kodi is not running or addons directory does not exist. Skipping stop."
 		exit 1
+		#kodi_service_run
     fi
 }
 # Function to add Samba share if not exists
@@ -386,7 +386,7 @@ EOF
 
 
 }
-# Function to install skin.carpc and repository.maltsev
+# Function to install skin.rnspi and repository.maltsev
 kodi_install_addons() {
     echo
     echo "Installing Kodi addons..."
@@ -401,7 +401,7 @@ kodi_install_addons() {
 
 		check_os_version
 
-		# Download latest skin.carpc from GitHub с повторными попытками
+		# Download latest skin.rnspi from GitHub с повторными попытками
 		#if [ "$PRETTY_NAME" == "Debian GNU/Linux 12 (bookworm)" ]; then
 		if echo "$PRETTY_NAME" | grep -q "bookworm"; then
 			packet_download "https://github.com/maltsevvv/repository/raw/master/kodi20/skin.rnspi/skin.rnspi-20.0.1.zip"
@@ -411,19 +411,19 @@ kodi_install_addons() {
 
 		packet_download "https://github.com/maltsevvv/repository/raw/master/repository.rnspi.zip"
 
-		echo "     Checking for file /tmp/skin.carpc.zip"
+		echo "     Checking for file /tmp/skin.rnspi.zip"
 		if [ ! -f /tmp/skin.*.zip ]; then
-			red "     File skin.carpc.zip /tmp/skin.carpc.zip not found. ❌"
+			red "     File skin.rnspi.zip /tmp/skin.rnspi.zip not found. ❌"
 			exit 1
 		else
 			if [ ! -d /home/pi/.kodi/addons/ ]; then
 				red "     Directory /home/pi/.kodi/addons/ not found. ❌"
 				exit 1
 			else
-				unzip -q /tmp/skin.carpc*.zip -d /tmp
-				green "     skin.carpc unzipped. ✅"
-				cp -r /tmp/skin.carpc /home/pi/.kodi/addons/
-				green "     skin.carpc copied to /home/pi/.kodi/addons/. ✅"
+				unzip -q /tmp/skin.rnspi*.zip -d /tmp
+				green "     skin.rnspi unzipped. ✅"
+				cp -r /tmp/skin.rnspi /home/pi/.kodi/addons/
+				green "     skin.rnspi copied to /home/pi/.kodi/addons/. ✅"
 
 				echo "     Installing repository.maltsev addon."
 				unzip -q /tmp/repository.maltsev.zip -d /tmp
@@ -444,13 +444,13 @@ kodi_configure() {
     echo "Configuring Kodi base settings..."
     kodi_stop_if_running
 
-    # 1. Check and add skin.carpc to addon-manifest.xml
-    if ! grep -q 'skin.carpc' /usr/share/kodi/system/addon-manifest.xml; then
-        echo "     Adding skin.carpc to addon-manifest.xml..."
-        sed -i '$i\  <addon optional="true">skin.carpc</addon>' /usr/share/kodi/system/addon-manifest.xml
-        green "     skin.carpc added to addon-manifest.xml. ✅"
+    # 1. Check and add skin.rnspi to addon-manifest.xml
+    if ! grep -q 'skin.rnspi' /usr/share/kodi/system/addon-manifest.xml; then
+        echo "     Adding skin.rnspi to addon-manifest.xml..."
+        sed -i '$i\  <addon optional="true">skin.rnspi</addon>' /usr/share/kodi/system/addon-manifest.xml
+        green "     skin.rnspi added to addon-manifest.xml. ✅"
     else
-        green "     skin.carpc already in addon-manifest.xml. Skipping."
+        green "     skin.rnspi already in addon-manifest.xml. Skipping."
     fi
     
     # 2. Check and add repository.maltsev to addon-manifest.xml
@@ -462,13 +462,13 @@ kodi_configure() {
         green "     repository.maltsev already in addon-manifest.xml. Skipping."
     fi
     
-    # 3. Enable skin.carpc in guisettings.xml
-    if ! grep -q 'skin.carpc' /home/pi/.kodi/userdata/guisettings.xml; then
-        echo "     Setting skin.carpc in guisettings.xml..."
-        sed -i 's/"lookandfeel.skin" default="true">skin.estuary/"lookandfeel.skin">skin.carpc/' /home/pi/.kodi/userdata/guisettings.xml
-        green "     Skin set to skin.carpc in guisettings.xml. ✅"
+    # 3. Enable skin.rnspi in guisettings.xml
+    if ! grep -q 'skin.rnspi' /home/pi/.kodi/userdata/guisettings.xml; then
+        echo "     Setting skin.rnspi in guisettings.xml..."
+        sed -i 's/"lookandfeel.skin" default="true">skin.estuary/"lookandfeel.skin">skin.rnspi/' /home/pi/.kodi/userdata/guisettings.xml
+        green "     Skin set to skin.rnspi in guisettings.xml. ✅"
     else
-        green "     skin.carpc already in guisettings.xml. Skipping."
+        green "     skin.rnspi already in guisettings.xml. Skipping."
     fi
     
     # 4. Set screensaver to none in guisettings.xml
@@ -815,6 +815,7 @@ install_package "requests" "pip"
 # Add configurations
 kodi_service_add
 kodi_service_run
+
 samba_share_add
 can0_service_add
 can0_service_run
