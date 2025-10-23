@@ -197,6 +197,7 @@ kodi_service_run() {
 # Function to stop Kodi if running
 kodi_stop_if_running() {
     echo "Checking Kodi status and addons directory..."
+	sleep 30
     if systemctl is-active --quiet kodi && [ -d /home/pi/.kodi/addons/ ]; then
         green "Kodi is running and addons directory exists. Stopping Kodi service..."
         systemctl stop kodi
