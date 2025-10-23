@@ -211,6 +211,7 @@ kodi_stop_if_running() {
         fi
     else
         red "Kodi is not running or addons directory does not exist. Skipping stop."
+		exit 1
     fi
 }
 # Function to add Samba share if not exists
