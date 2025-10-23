@@ -386,7 +386,7 @@ EOF
 
 
 }
-# Function to install skin.rnspi and repository.maltsev
+# Function to install skin.rnspi and repository.rnspi
 kodi_install_addons() {
     echo
     echo "Installing Kodi addons..."
@@ -425,11 +425,11 @@ kodi_install_addons() {
 				cp -r /tmp/skin.rnspi /home/pi/.kodi/addons/
 				green "     skin.rnspi copied to /home/pi/.kodi/addons/. ✅"
 
-				echo "     Installing repository.maltsev addon."
-				unzip -q /tmp/repository.maltsev.zip -d /tmp
-				green "     repository.maltsev unzipped. ✅"
-				cp -r /tmp/repository.maltsev /home/pi/.kodi/addons/
-				green "     repository.maltsev copied to /home/pi/.kodi/addons/. ✅"
+				echo "     Installing repository.rnspi addon."
+				unzip -q /tmp/repository.rnspi.zip -d /tmp
+				green "     repository.rnspi unzipped. ✅"
+				cp -r /tmp/repository.rnspi /home/pi/.kodi/addons/
+				green "     repository.rnspi copied to /home/pi/.kodi/addons/. ✅"
 			fi
 		fi
 	else
@@ -453,13 +453,13 @@ kodi_configure() {
         green "     skin.rnspi already in addon-manifest.xml. Skipping."
     fi
     
-    # 2. Check and add repository.maltsev to addon-manifest.xml
-    if ! grep -q 'repository.maltsev' /usr/share/kodi/system/addon-manifest.xml; then
-        echo "     Adding repository.maltsev to addon-manifest.xml..."
-        sed -i '/<\/addons>/i \  <addon optional="true">repository.maltsev</addon>' /usr/share/kodi/system/addon-manifest.xml
-        green "     repository.maltsev added to addon-manifest.xml. ✅"
+    # 2. Check and add repository.rnspi to addon-manifest.xml
+    if ! grep -q 'repository.rnspi' /usr/share/kodi/system/addon-manifest.xml; then
+        echo "     Adding repository.rnspi to addon-manifest.xml..."
+        sed -i '/<\/addons>/i \  <addon optional="true">repository.rnspi</addon>' /usr/share/kodi/system/addon-manifest.xml
+        green "     repository.rnspi added to addon-manifest.xml. ✅"
     else
-        green "     repository.maltsev already in addon-manifest.xml. Skipping."
+        green "     repository.rnspi already in addon-manifest.xml. Skipping."
     fi
     
     # 3. Enable skin.rnspi in guisettings.xml
