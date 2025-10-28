@@ -21,7 +21,7 @@
 	</extension>
 </addon>
 <!-- KODI 21 -->
-<addon id="skin.rnspi" version="21.0.1" name="Skin RNSPI" provider-name="Maltsev">
+<addon id="skin.rnspi" version="21.0.4" name="Skin RNSPI" provider-name="Maltsev">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0"/>
 	</requires>
@@ -41,23 +41,4 @@
 	</extension>
 </addon>
 
-<addon id="skin.rnspi" version="21.0.3" name="Skin RNSPI" provider-name="Maltsev">
-	<requires>
-		<import addon="xbmc.gui" version="5.17.0"/>
-	</requires>
-	<extension point="xbmc.gui.skin" debugging="false">
-		<res width="1280" height="720" aspect="16:9" default="true" folder="xml" />
-	</extension>
-	<extension point="xbmc.service" library="addon.py" start="login">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Skin RNSPI</summary>
-		<summary lang="ru">Обложка RNSPI</summary>
-		<description lang="en">A Kodi skin that implements button control via the CAN bus. Supported models: RNS D, RNS E, RNS JP3 https://sites.google.com/view/rnspi </description>
-		<description lang="ru">Обложка Kodi, реализующая управление кнопками через CAN-шину. Поддерживаемые модели: RNS D, RNS E, RNS JP3 https://sites.google.com/view/rnspi </description>
-		<platform>all</platform>
-		<website>https://sites.google.com/view/rnspi/</website>
-	</extension>
-</addon>
 </addons>
