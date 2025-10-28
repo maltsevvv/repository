@@ -406,7 +406,7 @@ kodi_install_addons() {
 		if echo "$PRETTY_NAME" | grep -q "bookworm"; then
 			packet_download "https://github.com/maltsevvv/repository/raw/master/kodi20/skin.rnspi/skin.rnspi-20.0.1.zip"
 		elif echo "$PRETTY_NAME" | grep -q "trixie"; then
-			packet_download "https://github.com/maltsevvv/repository/raw/master/kodi21/skin.rnspi/skin.rnspi-21.0.1.zip"
+			packet_download "https://github.com/maltsevvv/repository/raw/master/kodi21/skin.rnspi/skin.rnspi-21.0.4.zip"
 		fi
 
 		packet_download "https://github.com/maltsevvv/repository/raw/master/repository.rnspi.zip"
