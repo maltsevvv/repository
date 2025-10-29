@@ -3,6 +3,8 @@
 # wget -P /tmp https://raw.githubusercontent.com/maltsevvv/repository/master/install.sh
 # sudo bash /tmp/install.sh
 
+skin_kodi20=20.0.5
+skin_kodi21=21.0.5
 
 # Function for green text output
 green() {
@@ -404,9 +406,9 @@ kodi_install_addons() {
 		# Download latest skin.rnspi from GitHub с повторными попытками
 		#if [ "$PRETTY_NAME" == "Debian GNU/Linux 12 (bookworm)" ]; then
 		if echo "$PRETTY_NAME" | grep -q "bookworm"; then
-			packet_download "https://github.com/maltsevvv/repository/raw/master/kodi20/skin.rnspi/skin.rnspi-20.0.1.zip"
+			packet_download "https://github.com/maltsevvv/repository/raw/master/kodi20/skin.rnspi/skin.rnspi-$skin_kodi20.zip"
 		elif echo "$PRETTY_NAME" | grep -q "trixie"; then
-			packet_download "https://github.com/maltsevvv/repository/raw/master/kodi21/skin.rnspi/skin.rnspi-21.0.5.zip"
+			packet_download "https://github.com/maltsevvv/repository/raw/master/kodi21/skin.rnspi/skin.rnspi-$skin_kodi21.zip"
 		fi
 
 		packet_download "https://github.com/maltsevvv/repository/raw/master/repository.rnspi.zip"
