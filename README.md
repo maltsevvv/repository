@@ -14,7 +14,7 @@ sudo bash /tmp/install.sh
 
 v*0.6  
 Настройки интерфейса перенесены в   
-Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️
+`Settings` ➡️ `Interface` ➡️ `Skin` ➡️ `-Configure skin...` ➡️
 
 ### Control
 RNSE  
