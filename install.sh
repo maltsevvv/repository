@@ -4,7 +4,7 @@
 # sudo bash /tmp/install.sh
 
 skin_kodi20=20.0.6
-skin_kodi21=21.0.5
+skin_kodi21=21.0.6
 
 # Function for green text output
 green() {
