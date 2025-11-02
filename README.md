@@ -12,9 +12,8 @@ wget -P /tmp https://raw.githubusercontent.com/maltsevvv/repository/master/insta
 sudo bash /tmp/install.sh
 ```
 
-v*0.6  
-Настройки интерфейса перенесены в   
-Settings ️️➡️ Interface ➡️  Skin ➡️ -Configure skin...
+#### Начиная с версия **.0.6 и выше... .Настройки интерфейса CAN перенесены в   
+`Settings ️️➡️ Interface ➡️  Skin ➡️ -Configure skin...`
 ---
 ### Control
 
