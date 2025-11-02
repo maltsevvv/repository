@@ -14,29 +14,34 @@ sudo bash /tmp/install.sh
 
 v*0.6  
 Настройки интерфейса перенесены в   
-`Settings` ➡️ `Interface` ➡️ `Skin` ➡️ `-Configure skin...` ➡️
-
+Settings ️️➡️ Interface ➡️  Skin ➡️ -Configure skin...
+---
 ### Control
-RNSE  
-🔘 ↪️ ↩️ = 🔼 🔽
 
-🔘 perss < 1sec = 🆗  
-🔘 perss > 1sec = CAN Menu
-
-UP(🔼🔘) < 1sec = 🔼  
-UP(🔼🔘) > 1sec = 🎦➕20min
-
-DOWN(🔽🔘) < 1sec = 🔽  
-DOWN(🔽🔘) > 1sec = 🎦➖20min
-
-LEFT(|<) < 1sec = ⬅️  
-LEFT(|<) > 1sec = 🎦⏮️
-
-RIGHT(>|) < 1sec = ➡️  
-RIGHT(>|) > 1sec = 🎦⏭️
-
-RETURN < 1sec = ↩️  
-RETURN > 1sec = 🎦⏹️
-
-SETUP < 1sec = ConextMenu | 🎦 OSD  
-SETUP > 1sec = CAN Menu
+|   RNSE   |   RNSD   |        |  KODI  |
+| -------- | ---------|--------|--------|
+| 🔘 ↪️ ↩️ | 🔘 ↪️ ↩️  |        | 🔼 🔽 |
+|          |          |        |        |
+| 🔘 press | 🔘 press | < 1sec | Select |
+| 🔘 press | 🔘 press | > 1sec | C.Menu / 🎦 OSD |  
+|           |          |       |        |
+| ⬛🔼     | UP       | < 1sec | Up    |
+| ⬛🔼     | UP       | > 1sec | 🎦+20min |
+|           |          |        |        |
+| ⬛🔽     | DOWN     | < 1sec | Down   | 
+| ⬛🔽     | DOWN     | > 1sec | 🎦-20min |
+|           |          |        |        |
+| Previous  | LEFT     | < 1sec | Left     |  
+| Previous  | LEFT     | > 1sec | 🎦Prev |
+|           |          |        |        |
+| Next      | RIGHT    | < 1sec | Right  |
+| Next      | RIGHT    | > 1sec | 🎦Next |
+|           |          |        |        |
+| RETURN    | RETURN   | < 1sec | Back   |
+| RETURN    | RETURN   | > 1sec | 🎦Stop |
+|           |          |        |        |
+| SETUP     | MODE     | < 1sec | ConextMenu / 🎦 OSD |  
+| SETUP     | MODE     | > 1sec | Skin Settings |
+|           |          |        |        |
+|           | AS       | < 1sec |  🆗    |
+|           | AS       | > 1sec | C.Menu / 🎦 OSD | 
