@@ -1,7 +1,7 @@
 ![Raspberry - Bookworm](https://img.shields.io/badge/Raspberry-Bookworm_(Lite)-blue?logo=raspberrypi&logoColor=red)➡️
-[![KODI_20-skin.carpc](https://img.shields.io/badge/KODI_20-skin.carpc-red?logo=kodi)](https://github.com/maltsevvv/repository/raw/refs/heads/master/kodi20/skin.rnspi/skin.rnspi-20.0.6.zip) 
+[![KODI_20-skin.carpc](https://img.shields.io/badge/KODI_20-skin.carpc-red?logo=kodi)](https://github.com/maltsevvv/repository/raw/refs/heads/master/kodi20/skin.rnspi/skin.rnspi-20.0.7.zip) 
 ![Raspberry - Trixie](https://img.shields.io/badge/Raspberry-Trixie_(Lite)-blue?logo=raspberrypi&logoColor=red)➡️
-[![KODI_21-skin.rnspi](https://img.shields.io/badge/KODI_21-skin.rnspi-red?logo=kodi)](https://github.com/maltsevvv/repository/raw/refs/heads/master/kodi21/skin.rnspi/skin.rnspi-21.0.6.zip) 
+[![KODI_21-skin.rnspi](https://img.shields.io/badge/KODI_21-skin.rnspi-red?logo=kodi)](https://github.com/maltsevvv/repository/raw/refs/heads/master/kodi21/skin.rnspi/skin.rnspi-21.0.7.zip) 
 [![KODI_repository](https://img.shields.io/badge/KODI_repository-red?logo=kodi)](https://github.com/maltsevvv/repository/raw/refs/heads/master/repository.rnspi.zip)
 
 
@@ -40,7 +40,7 @@ Settings ️️➡️ Interface ➡️  Skin ➡️ -Configure skin...
 | RETURN    | RETURN   | < 1sec | Back   |
 | RETURN    | RETURN   | > 1sec | 🎦Stop |
 |           |          |        |        |
-| SETUP     | MODE     | < 1sec | ConextMenu / 🎦 OSD |  
+| SETUP     | MODE     | < 1sec | C.Menu / 🎦 OSD |  
 | SETUP     | MODE     | > 1sec | Skin Settings |
 |           |          |        |        |
 |           | AS       | < 1sec | Select |
