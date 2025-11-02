@@ -43,5 +43,5 @@ Settings ️️➡️ Interface ➡️  Skin ➡️ -Configure skin...
 | SETUP     | MODE     | < 1sec | ConextMenu / 🎦 OSD |  
 | SETUP     | MODE     | > 1sec | Skin Settings |
 |           |          |        |        |
-|           | AS       | < 1sec |  🆗    |
+|           | AS       | < 1sec | Select |
 |           | AS       | > 1sec | C.Menu / 🎦 OSD | 
