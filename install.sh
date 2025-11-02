@@ -3,8 +3,8 @@
 # wget -P /tmp https://raw.githubusercontent.com/maltsevvv/repository/master/install.sh
 # sudo bash /tmp/install.sh
 
-skin_kodi20=20.0.6
-skin_kodi21=21.0.6
+skin_kodi20=20.0.7
+skin_kodi21=21.0.7
 
 # Function for green text output
 green() {
