@@ -73,7 +73,7 @@ sudo bash /tmp/install.sh
     rfkill list
     ```
     `0: hci0: Bluetooth`  
-    `    Soft blocked: yes` >>> ***заблакирован***  
+    `    Soft blocked: yes` >>> ***заблокирован***  
     `    Hard blocked: no`  
     `1: hci1: Bluetooth`  
     `    Soft blocked: no`  
