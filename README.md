@@ -14,13 +14,13 @@ wget -P /tmp https://raw.githubusercontent.com/maltsevvv/repository/master/insta
 sudo bash /tmp/install.sh
 ```
 ---
-1. [Настройка интерфейса](#Interface_can)
-2. [Управление](#control)
+1. [Настройка интерфейса](#Settings)
+2. [Управление](#Control)
 3. [Bluetooth]
     1. [Проверка usb bluetooth адаптера](#Check_usb_adapter)
 
 ---
-### Interface_can
+### Settings
 Настройки интерфейса CAN перенесены в   
 `Settings ️️➡️ Interface ➡️  Skin ➡️ -Configure skin...` or open `Skin Settings`
 
