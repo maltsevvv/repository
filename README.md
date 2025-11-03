@@ -122,9 +122,18 @@ sudo bash /tmp/install.sh
 
     7. Так же, можем отключить его вообще  
     ```bash
-    echo "dtoverlay=disable-bt" >> "/boot/firmware/config.txt"
+    echo -e "\ndtoverlay=disable-bt" | sudo tee -a /boot/firmware/config.txt
     ```
-    8. Перезагрузка  
+    8. Сразу проверяем какя аудио карта у Вас выбрана
     ```bash
-    sudo reboot
+    cat /proc/asound/cards
     ```
+    Если видим `0`, то все OK:  
+    `0 [sndrpihifiberry]: RPi-simple - snd_rpi_hifiberry_dac`  
+    `                      snd_rpi_hifiberry_dac`  
+
+    Если видим Ваша карта другая, то меняем, `0` на номер Вашей карты в `/etc/asound.conf`:
+    ```bash
+    sudo nano /etc/asound.conf
+    ```
+ 
