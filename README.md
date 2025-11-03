@@ -15,7 +15,7 @@ sudo bash /tmp/install.sh
 1. [Настройка интерфейса](#Interface_can)
 2. [Управление](#control)
 3. [Bluetooth]
-    1. [Unblock usb bluetooth device]()
+    1. [Проверка usb bluetooth адаптера](#Check_usb_adapter)
 
 ---
 ### Interface_can
@@ -60,7 +60,7 @@ sudo bash /tmp/install.sh
     - [X] OS Bookworm
     - [ ] OS Trixie
 
-1. Проверка USB Адаптера
+    ### Check_usb_adapter
     ```bash
     hciconfig
     ```
