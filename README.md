@@ -46,3 +46,44 @@ sudo bash /tmp/install.sh
 |           |          |        |        |
 |           | AS       | < 1sec | Select |
 |           | AS       | > 1sec | C.Menu / 🎦 OSD | 
+
+
+#### Проверка USB Адаптера
+```bash
+hciconfig
+```
+
+`hci0:   Type: Primary  Bus: USB`  
+`        BD Address: 00:1A:7D:DA:71:13  ACL MTU: 679:8  SCO MTU: 48:16`  
+`        DOWN НЕ работает`  
+`        RX bytes:706 acl:0 sco:0 events:22 errors:0`  
+`        TX bytes:68 acl:0 sco:0 commands:22 errors:0`  
+Проверяем   
+
+    rfkill list all
+
+Ecли видим `Soft blocked: yes`. Он заблокирован  
+
+`0: hci0: Bluetooth`  
+`        Soft blocked: yes`  
+`        Hard blocked: no`  
+`1: hci1: Bluetooth`  
+`        Soft blocked: no`  
+`        Hard blocked: no`  
+
+Разблокируем его  
+
+    sudo rfkill unblock all
+
+Проверяем   
+
+    rfkill list all
+
+Видим `Soft blocked: yes`. `Изменился на Soft blocked: no`  
+
+`0: hci0: Bluetooth`  
+`        Soft blocked: no`  
+`        Hard blocked: no`  
+`1: hci1: Bluetooth`  
+`        Soft blocked: no`  
+`        Hard blocked: no`  
