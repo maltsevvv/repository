@@ -6,7 +6,7 @@
 ---
 [![KODI_repository](https://img.shields.io/badge/KODI_repository-red?logo=kodi)](https://github.com/maltsevvv/repository/raw/refs/heads/master/repository.rnspi.zip)
 
-
+## last version *️⃣.0️⃣.8️⃣
 
 ### Auto install
 ```bash
@@ -17,7 +17,7 @@ sudo bash /tmp/install.sh
 1. [Настройка интерфейса](#Settings)
 2. [Управление](#Control)
 3. [Bluetooth]
-    1. [Проверка usb bluetooth адаптера](#Check_usb_adapter)
+    1. [Проверка usb bluetooth адаптера](#Bluetooth_usb)
 
 ---
 ### Settings
@@ -65,7 +65,7 @@ sudo bash /tmp/install.sh
     - [X] OS Bookworm
     - [ ] OS Trixie
 
-    ### Check_usb_adapter
+    ### Bluetooth_usb adapter
     ```bash
     hciconfig
     ```
