@@ -77,6 +77,19 @@ connect 00:00:00:00:00:00
 trust 00:00:00:00:00:00
 ```
 
+
+### Bluetooth_del devices
+```bash
+sudo bluetoothctl
+```
+```bash
+devices
+```
+```bash
+remove 00:00:00:00:00:00
+```
+
+
 ### Bluetooth_usb adapter
 ```bash
 hciconfig
