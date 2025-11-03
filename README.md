@@ -99,7 +99,7 @@ sudo bash /tmp/install.sh
     `    Hard blocked: no`  
     `1: hci1: Bluetooth`  
     `    Soft blocked: yes` >>> ***встроенный заблокирован***  
-    `    Hard blocked: no`
+    `    Hard blocked: no`  
     `2: phy0: Wireless LAN`  
     `    Soft blocked: no`  
     `    Hard blocked: no`  
