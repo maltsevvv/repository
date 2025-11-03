@@ -18,6 +18,7 @@ sudo bash /tmp/install.sh
 2. [Кнопки управления](#control)
 3. [Bluetooth]
     - [Добавить устройство](#bluetooth_add)
+    - [Удалить ранее подключенное устройство](#bluetooth_del)
     - [Проверка usb bluetooth адаптера](#bluetooth_usb)
 
 ---
