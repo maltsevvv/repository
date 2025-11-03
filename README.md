@@ -22,6 +22,9 @@ sudo bash /tmp/install.sh
 Настройки интерфейса CAN перенесены в   
 `Settings ️️➡️ Interface ➡️  Skin ➡️ -Configure skin...` or open `Skin Settings`
 
+Отключение оповещения HDMI-CEC при загрузке  
+`Settings ️️➡️ System ➡️ Input ➡️ Peripherals ➡️ CEC ➡️ Enable OFF`  
+
 ---
 
 ### Control
