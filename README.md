@@ -103,3 +103,24 @@ sudo bash /tmp/install.sh
     `2: phy0: Wireless LAN`  
     `    Soft blocked: no`  
     `    Hard blocked: no`  
+
+    6. Повторная проверка usb bluetooth адаптер  
+    ```bash
+    hciconfig
+    ```
+    `hci1:   Type: Primary  Bus: UART` >>> ***встроенный bluetooth адаптер***  
+    `    BD Address: E4:5F:01:0D:3A:45  ACL MTU: 1021:8  SCO MTU: 64:1`  
+    `    DOWN` >>> ***не работает***  
+    `    RX bytes:3780 acl:0 sco:0 events:397 errors:0`  
+    `    TX bytes:67416 acl:0 sco:0 commands:397 errors:0`  
+
+    `hci0:   Type: Primary  Bus: USB` >>> ***внешний usb bluetooth адаптер***  
+    `    BD Address: 00:1A:7D:DA:71:13  ACL MTU: 679:8  SCO MTU: 48:16`  
+    `    UP RUNNING PSCAN ISCAN` >>> ***работает***  
+    `    RX bytes:3322355 acl:5664 sco:0 events:277 errors:0`  
+    `    TX bytes:5985 acl:187 sco:0 commands:71 errors:0`  
+
+    7. Так же, можем отключить его вообще  
+    ```bash
+    echo "dtoverlay=disable-bt" >> "/boot/firmware/config.txt"
+    ```
