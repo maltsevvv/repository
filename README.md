@@ -62,7 +62,9 @@ sudo bash /tmp/install.sh
 |           | AS       | > 1sec | C.Menu / 🎦 OSD | 
 ---
 
-## Bluetooth
+## Bluetooth | ✅OS Bookworm | ❌OS Trixie
+
+
 
 ### Bluetooth_add device
 ```bash
