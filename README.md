@@ -64,29 +64,19 @@ sudo bash /tmp/install.sh
     ```bash
     rfkill list all
     ```
+    `0: hci0: Bluetooth`  
+    `        Soft blocked: yes` заблокирован  
+    `        Hard blocked: no`  
 
-Ecли видим `Soft blocked: yes`. Он заблокирован  
-
-`0: hci0: Bluetooth`  
-`        Soft blocked: yes`  
-`        Hard blocked: no`  
-`1: hci1: Bluetooth`  
-`        Soft blocked: no`  
-`        Hard blocked: no`  
-
-Разблокируем его  
-
+    Разблокируем его  
+    ```bash
     sudo rfkill unblock all
-
-Проверяем   
-
+    ```
+    Проверяем   
+    ```bash
     rfkill list all
+    ```
+    `0: hci0: Bluetooth`  
+    `        Soft blocked: no` ok 
+    `        Hard blocked: no`
 
-Видим `Soft blocked: yes`. `Изменился на Soft blocked: no`  
-
-`0: hci0: Bluetooth`  
-`        Soft blocked: no`  
-`        Hard blocked: no`  
-`1: hci1: Bluetooth`  
-`        Soft blocked: no`  
-`        Hard blocked: no`  
