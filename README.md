@@ -62,9 +62,9 @@ sudo bash /tmp/install.sh
 
     2. Проверяем, не заблакирован ли он    
     ```bash
-    rfkill list all
+     rfkill list bluetooth
     ```
-    `0: hci0: Bluetooth`  
+    `2: hci0: Bluetooth`  
     `        Soft blocked: yes` заблокирован  
     `        Hard blocked: no`  
 
