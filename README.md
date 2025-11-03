@@ -58,7 +58,7 @@ sudo bash /tmp/install.sh
     `    UP RUNNING PSCAN ISCAN` работает  
     `    RX bytes:3780 acl:0 sco:0 events:397 errors:0`  
     `    TX bytes:67416 acl:0 sco:0 commands:397 errors:0`  
-    `    `
+
     `hci0:   Type: Primary  Bus: USB` внешний usb bluetooth адаптер  
     `    BD Address: 00:1A:7D:DA:71:13  ACL MTU: 679:8  SCO MTU: 48:16`  
     `    DOWN` не работает  
