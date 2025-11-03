@@ -77,6 +77,6 @@ sudo bash /tmp/install.sh
     rfkill list all
     ```
     `0: hci0: Bluetooth`  
-    `        Soft blocked: no` ok 
+    `        Soft blocked: no` ok  
     `        Hard blocked: no`
 
