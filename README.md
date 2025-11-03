@@ -124,3 +124,7 @@ sudo bash /tmp/install.sh
     ```bash
     echo "dtoverlay=disable-bt" >> "/boot/firmware/config.txt"
     ```
+    8. Перезагрузка  
+    ```bash
+    sudo reboot
+    ```
