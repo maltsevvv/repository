@@ -49,6 +49,10 @@ sudo bash /tmp/install.sh
 ---
 
 ## Bluetooth
+- [X] Bluetooth Работает
+    - [X] OS Bookworm
+    - [ ] OS Trixie
+
 1. Проверка USB Адаптера
     ```bash
     hciconfig
