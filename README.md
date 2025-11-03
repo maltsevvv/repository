@@ -77,8 +77,7 @@ connect 00:00:00:00:00:00
 ```bash
 trust 00:00:00:00:00:00
 ```
-
-
+---
 ### Bluetooth_del devices
 ```bash
 sudo bluetoothctl
@@ -89,8 +88,7 @@ devices
 ```bash
 remove 00:00:00:00:00:00
 ```
-
-
+---
 ### Bluetooth_usb adapter
 ```bash
 hciconfig
@@ -178,4 +176,4 @@ cat /proc/asound/cards
 ```bash
 sudo nano /etc/asound.conf
 ```
-
+---
