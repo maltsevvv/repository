@@ -19,9 +19,9 @@ sudo bash /tmp/install.sh
 
 1. [Схема соединения модулей с Raspberrypi](#raspberry)
 2. [Схема соединения модулей с RNS](#connect)
-1. [Настройка интерфейса](#settings)
-2. [Кнопки управления](#control)
-3. [Bluetooth]
+3. [Настройка интерфейса](#settings)
+4. [Кнопки управления](#control)
+5. [Bluetooth]
     - [Добавить устройство](#bluetooth_add)
     - [Удалить ранее подключенное устройство](#bluetooth_del)
     - [Проверка usb bluetooth адаптера](#bluetooth_usb)
