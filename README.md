@@ -64,7 +64,8 @@ sudo bash /tmp/install.sh
 
 ## Bluetooth  
 
-### Bluetooth_add device
+### Bluetooth_add device  
+##### К Bluetooth должены подключаться без проблем, но иногда не получается, и по этому нужно подключать вручную
 ```bash
 sudo bluetoothctl
 ```
@@ -77,8 +78,9 @@ connect 00:00:00:00:00:00
 ```bash
 trust 00:00:00:00:00:00
 ```
+##### Вместо `00:00:00:00:00:00` указываем свой mac устройства
 ---
-### Bluetooth_del devices
+### Bluetooth_del devices  
 ```bash
 sudo bluetoothctl
 ```
@@ -88,6 +90,7 @@ devices
 ```bash
 remove 00:00:00:00:00:00
 ```
+##### Вместо `00:00:00:00:00:00` указываем свой mac устройства
 ---
 ### Bluetooth_usb adapter
 ```bash
