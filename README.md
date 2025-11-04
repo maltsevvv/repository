@@ -17,7 +17,7 @@ sudo bash /tmp/install.sh
 [Подробная информация на сайте](https://sites.google.com/view/rnspi/)
 ---
 
-1. [Схема соединения модулей с Raspberrypi](#raspberry-PI-connect-modules)
+1. [Схема соединения модулей с Raspberry PI](#raspberry-PI-connect-modules)
 2. [Схема соединения модулей с RNS](#connect-to-rns)
 3. [Настройка интерфейса](#settings-can-interfaces)
 4. [Кнопки управления](#control-button-rns)
