@@ -802,42 +802,42 @@ echo
 echo "Upgrade system"
 apt upgrade -y &> /dev/null|| { red "Не удалось обновить ."; exit 1; }
 
-# # Установка пакетов apt
-# echo "Installation Packages"
-# install_package "samba"
-# install_package "kodi"
-# install_package "kodi-pvr-iptvsimple"
-# install_package "can-utils"
-# install_package "python3-can"
-# install_package "python3-pip"
-# install_package "overlayroot"
+# Установка пакетов apt
+echo "Installation Packages"
+install_package "samba"
+install_package "kodi"
+install_package "kodi-pvr-iptvsimple"
+install_package "can-utils"
+install_package "python3-can"
+install_package "python3-pip"
+install_package "overlayroot"
 
-# ntp_time() {
-    # check_os_version
-	# if echo "$PRETTY_NAME" | grep -q "bookworm"; then
-		# install_package "ntp"
-    # fi
-# }
+ntp_time() {
+    check_os_version
+	if echo "$PRETTY_NAME" | grep -q "bookworm"; then
+		install_package "ntp"
+    fi
+}
 
-# ntp_time
+ntp_time
 
-# # Установка pip-пакета
-# install_package "requests" "pip"
+# Установка pip-пакета
+install_package "requests" "pip"
 
-# # Add configurations
-# kodi_service_add
-# kodi_service_run
+# Add configurations
+kodi_service_add
+kodi_service_run
 
-# samba_share_add
-# can0_service_add
-# can0_service_run
+samba_share_add
+can0_service_add
+can0_service_run
 
-# #run service
-# kodi_install_addons
-# kodi_configure
+#run service
+kodi_install_addons
+kodi_configure
 
-# rpi_backup
-# rpi_add_can0
+rpi_backup
+rpi_add_can0
 
 # Interactive prompt for Bluetooth setup (using whiptail)
 if whiptail --title "Bluetooth Audio Receiver" --yesno "        Installing a Bluetooth audio receiver?\n\n      en:We recommend using a USB Bluetooth adapter.\nru:Рекомендуем использовать USB Bluetooth адаптер." 10 60; then
