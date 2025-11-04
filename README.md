@@ -17,17 +17,17 @@ sudo bash /tmp/install.sh
 [Подробная информация на сайте](https://sites.google.com/view/rnspi/)
 ---
 
-1. [Схема соединения модулей с Raspberrypi](#raspberry)
-2. [Схема соединения модулей с RNS](#connect)
-3. [Настройка интерфейса](#settings)
-4. [Кнопки управления](#control)
+1. [Схема соединения модулей с Raspberrypi](#raspberry-PI-connect-modules)
+2. [Схема соединения модулей с RNS](#connect-to-rns)
+3. [Настройка интерфейса](#settings-can-interfaces)
+4. [Кнопки управления](#control-button-rns)
 5. [Bluetooth]
     - [Добавить устройство](#bluetooth_add)
     - [Удалить ранее подключенное устройство](#bluetooth_del)
     - [Проверка usb bluetooth адаптера](#bluetooth_usb)
 
 ---
-### Settings
+### Settings Can Interfaces
 Настройки интерфейса CAN перенесены в   
 `Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin...` or open `Skin Settings`
 
@@ -36,7 +36,7 @@ sudo bash /tmp/install.sh
 
 ---
 
-### Control
+### Control button RNS
 
 |   RNSE   |   RNSD   |        |  KODI  |
 | -------- | ---------|--------|--------|
