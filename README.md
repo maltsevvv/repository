@@ -14,6 +14,9 @@ wget -P /tmp https://raw.githubusercontent.com/maltsevvv/repository/master/insta
 sudo bash /tmp/install.sh
 ```
 ---
+[Подробная информация на сайте](https://sites.google.com/view/rnspi/)
+---
+
 1. [Настройка интерфейса](#settings)
 2. [Кнопки управления](#control)
 3. [Bluetooth]
