@@ -19,7 +19,7 @@ sudo bash /tmp/install.sh
 
 1. [Схема соединения модулей с Raspberry PI](#raspberry-PI-connect-modules)
 2. [Схема соединения модулей с RNS](#connect-to-rns)
-3. [Настройка интерфейса](#settings-can-interfaces)
+3. [Настройка отображения данных CAN](#settings-can-interfaces)
 4. [Кнопки управления](#control-button-rns)
 5. [Bluetooth]
     - [Добавить устройство](#bluetooth_add)
