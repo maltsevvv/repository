@@ -167,6 +167,13 @@ cat /proc/asound/cards
 sudo nano /etc/asound.conf
 ```
 ---
-## Connect to
-<img src="image/rnsd.png" alt="Connect to RNSD" width="200" title="RNSD"> <img src="image/rnse.png" alt="Connect to RNSE" width="200" title="RNSE">
-<img src="image/rnsjp3.png" alt="Connect to RNSJP3" width="200" title="RNSJP3">
+## Raspberry PI connect modules  
+❎ Рекомендуется использовать, MCP2515 с SN65HVD230 для Raspberry т.к модуль работает от 3.3v.  
+❌ Не рекомендуется использовать, MCP2515 с TJA1050 для Raspberry без доработок, т.к модуль работает от 5v.  
+<img src="image/mcp2515sn230.png" alt="Connect to RPI MCP2515(SN65HVD230) and PCM5201" width="400" title="Connect to RPI MCP2515(SN65HVD230) and PCM5201"> <img src="image/mcp2515tja1050.png" alt="Connect to RPI MCP2515(tja1050) and PCM5201" width="400" title="Connect to RPI MCP2515(tja1050) and PCM5201">
+
+---
+## Connect to RNS
+<img src="image/rnsd.png" alt="Connect to RNSD" width="300" title="RNSD"> <img src="image/rnse.png" alt="Connect to RNSE" width="300" title="RNSE">
+<img src="image/rnsjp3.png" alt="Connect to RNSJP3" width="300" title="RNSJP3">
+---
