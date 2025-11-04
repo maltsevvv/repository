@@ -27,7 +27,8 @@ sudo bash /tmp/install.sh
     - [Добавить устройство](#bluetooth_add)
     - [Удалить ранее подключенное устройство](#bluetooth_del)
     - [Проверка usb bluetooth адаптера](#bluetooth_usb)
-
+6. Нет изображения на мониторе или домашнем телевизоре
+  
 ---
 ### Settings Can Interfaces
 Настройки интерфейса CAN перенесены в   
@@ -181,3 +182,17 @@ sudo nano /etc/asound.conf
 <img src="image/rnsd.png" alt="Connect to RNSD" width="250" title="RNSD"> <img src="image/rnse.png" alt="Connect to RNSE" width="250" title="RNSE">
 <img src="image/rnsjp3.png" alt="Connect to RNSJP3" width="250" title="RNSJP3">
 ---
+
+## Not image monitor or tv
+Это происходит, т.к. разрешение необходимое для отображения на магнитолах RNS*, должно передаваться в разрешении 480i. Большинство современных устроиств не поддерживают, такое разрешение.
+Что бы, это исправить, можно временно изменить файл конфигурации raspberry.
+```bash
+cd
+wget https://github.com/maltsevvv/repository/raw/refs/heads/master/driver/video.sh
+sudo chmod +x video.sh
+```
+Запускаем
+```bash
+sudo bash video.sh
+```
+Если хотим отобразить на TV или Мониторе PC `TV`
