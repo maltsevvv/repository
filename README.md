@@ -17,6 +17,8 @@ sudo bash /tmp/install.sh
 [Подробная информация на сайте](https://sites.google.com/view/rnspi/)
 ---
 
+1. [Схема соединения модулей с Raspberrypi](#raspberry)
+2. [Схема соединения модулей с RNS](#connect)
 1. [Настройка интерфейса](#settings)
 2. [Кнопки управления](#control)
 3. [Bluetooth]
