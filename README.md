@@ -176,6 +176,6 @@ sudo nano /etc/asound.conf
 
 ---
 ## Connect to RNS
-<img src="image/rnsd.png" alt="Connect to RNSD" width="300" title="RNSD"> <img src="image/rnse.png" alt="Connect to RNSE" width="300" title="RNSE">
-<img src="image/rnsjp3.png" alt="Connect to RNSJP3" width="300" title="RNSJP3">
+<img src="image/rnsd.png" alt="Connect to RNSD" width="250" title="RNSD"> <img src="image/rnse.png" alt="Connect to RNSE" width="250" title="RNSE">
+<img src="image/rnsjp3.png" alt="Connect to RNSJP3" width="250" title="RNSJP3">
 ---
