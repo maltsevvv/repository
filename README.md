@@ -27,7 +27,7 @@ sudo bash /tmp/install.sh
     - [Добавить устройство](#bluetooth_add)
     - [Удалить ранее подключенное устройство](#bluetooth_del)
     - [Проверка usb bluetooth адаптера](#bluetooth_usb)
-6. Нет изображения на мониторе или домашнем телевизоре
+6. [Нет изображения на мониторе или домашнем телевизоре](#not-image-monitor-or-tv)
   
 ---
 ### Settings Can Interfaces
