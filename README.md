@@ -85,7 +85,7 @@ connect 00:00:00:00:00:00
 ```bash
 trust 00:00:00:00:00:00
 ```
-##### Вместо `00:00:00:00:00:00` указываем свой mac устройства
+##### Вместо `00:00:00:00:00:00`, указываем свой mac устройства
 ---
 ### Bluetooth_del devices  
 ```bash
@@ -97,7 +97,7 @@ devices
 ```bash
 remove 00:00:00:00:00:00
 ```
-##### Вместо `00:00:00:00:00:00` указываем свой mac устройства
+##### Вместо `00:00:00:00:00:00`, указываем свой mac устройства
 ---
 ### Bluetooth_usb adapter
 ```bash
@@ -158,7 +158,7 @@ hciconfig
 ```bash
 echo -e "\ndtoverlay=disable-bt" | sudo tee -a /boot/firmware/config.txt
 ```
-7. Сразу проверяем какя аудио карта у Вас выбрана
+7. Сразу проверяем, какая аудио карта у Вас выбрана
 ```bash
 cat /proc/asound/cards
 ```
@@ -166,7 +166,7 @@ cat /proc/asound/cards
 `0 [sndrpihifiberry]: RPi-simple - snd_rpi_hifiberry_dac`  
 `                      snd_rpi_hifiberry_dac`  
 
-Если видим Ваша карта другая, то меняем, `0` на номер Вашей карты в `/etc/asound.conf`:
+Если, Ваша карта другая, то меняем, `0` на номер Вашей карты в `/etc/asound.conf`:
 ```bash
 sudo nano /etc/asound.conf
 ```
