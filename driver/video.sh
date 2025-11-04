@@ -1,11 +1,13 @@
 #!/bin/bash
 
-BGreen="\033[1;32m"     # Green
-BRed="\033[1;31m"       # Red
-BBlue="\033[1;34m"      # Blue
-NC="\033[0m"            # No Color
-
-
+# Function for green text output
+green() {
+    printf "\033[32m%s\033[0m\n" "$1"
+}
+# Function for red text output
+red() {
+    printf "\033[31m%s\033[0m\n" "$1"
+}
 
 if [ -e /boot/firmware/config.txt ] ; then
   FIRMWARE=/firmware
@@ -30,38 +32,31 @@ rpi_conf() {
 	fi
 }
 
-
 config_tv() {
-        if ! [ -e $CMDLINE.rns ]; then
-                cp $CMDLINE $CMDLINE.rns
-                cp $CMDLINE.backup $CMDLINE
-                echo ${BGreen}"Use HDMI Video Output TV"${NC}
-                echo ${BRed}"The system will reboot now"${NC}
-                reboot
-        else
-                echo ${BGreen}"NOW use HDMI Video Output TV"${NC}
-        fi
+	if ! [ -e $CMDLINE.rns ]; then
+			cp $CMDLINE $CMDLINE.rns
+			cp $CMDLINE.backup $CMDLINE
+			green "Use HDMI Video Output TV"
+			red "The system will reboot now"
+			reboot
+	else
+			green "NOW use HDMI Video Output TV"
+	fi
 }
-
 
 config_rns() {
-        if [ -e $CMDLINE.rns ]; then
-                mv $CMDLINE.rns $CMDLINE
-                echo ${BGreen}"Use HDMI Video Output RNS"${NC}
-                echo ${BRed}"The system will reboot now"${NC}
-                reboot
-        else
-                echo ${BGreen}"Use HDMI Video Output RNS"${NC}
-        fi
+	if [ -e $CMDLINE.rns ]; then
+			mv $CMDLINE.rns $CMDLINE
+			green "Use HDMI Video Output RNS"
+			red "The system will reboot now"
+			reboot
+	else
+			green "Use HDMI Video Output RNS"
+	fi
 }
 
-
-echo '---------------------------------------------------------'
-if (whiptail --title "Video Output" --yes-button " TV " --no-button " RNS " --yesno "Select video output source" 10 60); then
-        #echo ${BGreen}"Use HDMI Video Output TV"${NC}
-        echo $(config_tv)
+if (whiptail --title "Select video output source" --yes-button " TV " --no-button " RNS " --yesno "en:Select <TV> for your TV or PC monitor.\nSelect <RNS> to restore for RNS settings.\n\nru:Выбрать <TV> для телевизора или монитора ПК.\nВыбрать <RNS>, чтобы восстановить настройки для RNS." 11 60); then
+		config_tv
 else
-        #echo ${BGreen}"Use HDMI Video Output RNS"${NC}
-        echo $(config_rns)
+		config_rns
 fi
-echo '---------------------------------------------------------'
