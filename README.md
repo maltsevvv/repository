@@ -167,3 +167,6 @@ cat /proc/asound/cards
 sudo nano /etc/asound.conf
 ```
 ---
+## Connect to
+<img src="image/rnsd.png" alt="Connect to RNSD" width="200" title="RNSD"> <img src="image/rnse.png" alt="Connect to RNSE" width="200" title="RNSE">
+<img src="image/rnsjp3.png" alt="Connect to RNSJP3" width="200" title="RNSJP3">
