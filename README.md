@@ -24,10 +24,10 @@ sudo bash /tmp/install.sh
 ---
 ### Settings
 Настройки интерфейса CAN перенесены в   
-`Settings ️️➡️ Interface ➡️  Skin ➡️ -Configure skin...` or open `Skin Settings`
+`Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin...` or open `Skin Settings`
 
 Отключение оповещения HDMI-CEC при загрузке  
-`Settings ️️➡️ System ➡️ Input ➡️ Peripherals ➡️ CEC ➡️ Enable OFF`  
+`Settings ️➡️ System ➡️ Input ➡️ Peripherals ➡️ CEC ➡️ Enable OFF`  
 
 ---
 
@@ -62,7 +62,7 @@ sudo bash /tmp/install.sh
 |           | AS       | > 1sec | C.Menu / 🎦 OSD | 
 ---
 
-## Bluetooth | ✅OS Bookworm | ❌OS Trixie
+## Bluetooth  
 
 ### Bluetooth_add device
 ```bash
@@ -115,36 +115,20 @@ rfkill list
 `0: hci0: Bluetooth`  
 `    Soft blocked: yes` >>> ***заблокирован***  
 `    Hard blocked: no`  
-`1: hci1: Bluetooth`  
-`    Soft blocked: no`  
-`    Hard blocked: no`  
-`2: phy0: Wireless LAN`  
-`    Soft blocked: no`  
-`    Hard blocked: no`  
 
 3. Разблокируем его  
 ```bash
-sudo rfkill unblock 0
+sudo rfkill unblock all
 ```
-4. Блокируем встроенный  
-```bash
-sudo rfkill block 1
-```
-5. Проверяем  
+4. Проверяем  
 ```bash
 rfkill list
 ```
 `0: hci0: Bluetooth`  
 `    Soft blocked: no` >>> ***usb bluetooth разблокирован***  
 `    Hard blocked: no`  
-`1: hci1: Bluetooth`  
-`    Soft blocked: yes` >>> ***встроенный заблокирован***  
-`    Hard blocked: no`  
-`2: phy0: Wireless LAN`  
-`    Soft blocked: no`  
-`    Hard blocked: no`  
 
-6. Повторная проверка usb bluetooth адаптер  
+5. Повторная проверка usb bluetooth адаптер  
 ```bash
 hciconfig
 ```
@@ -160,11 +144,11 @@ hciconfig
 `    RX bytes:3322355 acl:5664 sco:0 events:277 errors:0`  
 `    TX bytes:5985 acl:187 sco:0 commands:71 errors:0`  
 
-7. Так же, можем отключить его вообще  
+6. Отключить встроенный UART Bluetooth 
 ```bash
 echo -e "\ndtoverlay=disable-bt" | sudo tee -a /boot/firmware/config.txt
 ```
-8. Сразу проверяем какя аудио карта у Вас выбрана
+7. Сразу проверяем какя аудио карта у Вас выбрана
 ```bash
 cat /proc/asound/cards
 ```
