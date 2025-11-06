@@ -3,7 +3,7 @@
 # wget -P /tmp https://raw.githubusercontent.com/maltsevvv/repository/master/install.sh
 # sudo bash /tmp/install.sh
 
-user=$(whoami)
+user="$SUDO_USER"
 
 skin_kodi20=20.0.8
 skin_kodi21=21.0.8
@@ -792,12 +792,13 @@ rpi_bt_disable(){
 green "Starting automated installation script for Raspberry Pi... 🚀"
 
 
-# Run checks
-if [[ -z "$user" ]]; then
-    echo "Ошибка: пользователь не найден"
+# Проверка: скрипт должен запускаться только с sudo
+if [ -z "$SUDO_USER" ]; then
+    red "Error: The script must be run with sudo. Example sudo bash /tmp/install.sh"
     exit 1
 fi
 
+# Run checks
 check_internet
 check_os_version
 check_pi_model
