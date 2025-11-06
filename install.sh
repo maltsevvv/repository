@@ -715,7 +715,7 @@ rpi_vga() {
 	if ! grep -q "hdmi_vga_for_rns" "$CONFIG"; then
 		echo " " >> "$CONFIG"
 		echo "# hdmi_vga_for_rns" >> "$CONFIG"
-		if echo "$MODEL" | grep -qE "(Raspberry Pi 1|Raspberry Pi 2|Raspberry Pi 3)"; then
+		if echo "$MODEL" | grep -qE "(Raspberry Pi Zero 2 W|Raspberry Pi 2|Raspberry Pi 3)"; then
 			echo "hdmi_ignore_edid=0xa5000080" >> "$CONFIG"
 		fi
 		echo "hdmi_force_hotplug=1" >> "$CONFIG"
