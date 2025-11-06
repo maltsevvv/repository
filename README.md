@@ -41,33 +41,42 @@ sudo bash /tmp/install.sh
 
 ### Control button RNS
 
-|   RNSE   |   RNSD   |        |  KODI  |
-| -------- | ---------|--------|--------|
-| 🔘 ↪️ ↩️ | 🔘 ↪️ ↩️  |        | 🔼 🔽 |
-|          |          |        |        |
-| 🔘 press | 🔘 press | < 1sec | Select |
-| 🔘 press | 🔘 press | > 1sec | C.Menu / 🎦 OSD |  
-|           |          |       |        |
-| ⬛🔼     | UP       | < 1sec | Up    |
-| ⬛🔼     | UP       | > 1sec | 🎦+20min |
-|           |          |        |        |
-| ⬛🔽     | DOWN     | < 1sec | Down   | 
-| ⬛🔽     | DOWN     | > 1sec | 🎦-20min |
-|           |          |        |        |
-| Previous  | LEFT     | < 1sec | Left     |  
-| Previous  | LEFT     | > 1sec | 🎦Prev |
-|           |          |        |        |
-| Next      | RIGHT    | < 1sec | Right  |
-| Next      | RIGHT    | > 1sec | 🎦Next |
-|           |          |        |        |
-| RETURN    | RETURN   | < 1sec | Back   |
-| RETURN    | RETURN   | > 1sec | 🎦Stop |
-|           |          |        |        |
-| SETUP     | MODE     | < 1sec | C.Menu / 🎦 OSD |  
-| SETUP     | MODE     | > 1sec | Skin Settings |
-|           |          |        |        |
-|           | AS       | < 1sec | Select |
-|           | AS       | > 1sec | C.Menu / 🎦 OSD | 
+|   RNSE   |   RNSD   |    MFD    |  time  |   KODI   |
+|----------|----------|-----------|--------|----------|
+| 🔘 ↪️ ↩️  | 🔘 ↪️ ↩️  | 🔘 ↪️ ↩️  |        | 🔼 🔽    |
+| | | | | |
+| 🔘 press | 🔘 press | 🔘 press | < 1sec | Select   |
+| 🔘 press | 🔘 press | 🔘 press | > 1sec | C.Menu / 🎦 OSD |  
+| | | | | |
+| ⬛🔼    | UP        | 4        | < 1sec | Up       |
+| ⬛🔼    | UP        | 4        | > 1sec | 🎦🎵+skeep |
+| | | | | |
+| ⬛🔽    | DOWN      | 5        | < 1sec | Down     | 
+| ⬛🔽    | DOWN      | 5        | > 1sec | 🎦🎵-skeep |
+| | | | | |
+| Previous | LEFT      | Previous | < 1sec | Left     |  
+| Previous | LEFT      | Previous | > 1sec | 🎦🎵Prev |
+| | | | | |
+| Next     | RIGHT     | Next     | < 1sec | Right     |
+| Next     | RIGHT     | Next     | > 1sec | 🎦🎵Next |
+| | | | | |
+| RETURN   | RETURN    | Exit     | < 1sec | Back      |
+| RETURN   | RETURN    | Exit     | > 1sec | 🎦🎵Stop |
+| | | | | |
+| SETUP    | MODE      | 6        | < 1sec | C.Menu / 🎦 OSD |  
+| SETUP    | MODE      | 6        | > 1sec | Skin Settings |
+| | | | | |
+|          | AS        | AS       | < 1sec | Select    |
+|          | AS        | AS       | > 1sec | C.Menu / 🎦 OSD | 
+| | | | | |
+|          | +         | 1        | < 1sec | 🎦🎵Next |  
+|          | +         | 1        | > 1sec |           |  
+| | | | | |
+|          | -         | 2        | < 1sec | 🎦🎵Prev |  
+|          | -         | 2        | > 1sec |           |  
+| | | | | |
+|          |           | 3        | < 1sec | Back      |  
+|          |           | 3        | > 1sec | 🎦🎵Stop |  
 ---
 
 ## Bluetooth  
