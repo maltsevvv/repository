@@ -685,7 +685,7 @@ rpi_add_can0(){
     if ! grep -q "dtoverlay=mcp2515-can0" "$CONFIG"; then
         echo "# MCP2515-Can0 oscillator=8000000 or 16000000 and GPIO=25" >> "$CONFIG"
         echo "dtoverlay=mcp2515-can0,oscillator=8000000,interrupt=25" >> "$CONFIG"
-		if echo "$MODEL" | grep -qE "(Raspberry Pi 1|Raspberry Pi 2|Raspberry Pi 3)"; then
+		if echo "$MODEL" | grep -qE "(Raspberry Pi Zero 2 W|Raspberry Pi 2|Raspberry Pi 3)"; then
 			echo "dtoverlay=spi-bcm2835" >> "$CONFIG"
 		elif echo "$MODEL" | grep -qE "(Raspberry Pi 4|Raspberry Pi 5)"; then
 			echo "dtoverlay=spi-bcm2837" >> "$CONFIG"
