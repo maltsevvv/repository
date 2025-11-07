@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <!-- KODI 20 -->
+
 <addon id="skin.rnspi" version="20.0.8" name="Skin RNSPI" provider-name="Maltsev">
 	<requires>
 		<import addon="xbmc.gui" version="5.16.0"/>
@@ -22,6 +23,7 @@
 </addon>
 
 <!-- KODI 21 -->
+
 
 <addon id="skin.rnspi" version="21.0.8" name="Skin RNSPI" provider-name="Maltsev">
 	<requires>
