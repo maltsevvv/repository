@@ -9,6 +9,18 @@
 [![KODI_repository](https://img.shields.io/badge/KODI_repository-red?logo=kodi)](https://github.com/maltsevvv/repository/raw/refs/heads/master/repository.rnspi.zip)
 ---
 ## last version 0.9
+- 0.9
+    - Access to repository updates has been changed. To update, while in the Add-ons section, press the left arrow in the interface.
+- 0.8
+    - Added control for RNS MFD
+- 0.7
+    - Changed the logic of the RNSE buttons. Long press > 10 messages
+    - Added display of internet connection on the home screen, without the option to disable it
+- 0.6
+    - Changed the display of RPI CPU temp
+    - Changed everything and added it to settings
+    - CAN interface settings, now in the skin interface settings
+    - Removed the CAN menu from the HOME menu
 
 ### Auto install
 ```bash
