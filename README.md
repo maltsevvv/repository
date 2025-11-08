@@ -8,7 +8,7 @@
 ---
 [![KODI_repository](https://img.shields.io/badge/KODI_repository-red?logo=kodi)](https://github.com/maltsevvv/repository/raw/refs/heads/master/repository.rnspi.zip)
 ---
-## last version *️⃣.0️⃣.8️⃣
+## last version 0.9
 
 ### Auto install
 ```bash
@@ -113,19 +113,21 @@ remove 00:00:00:00:00:00
 ```bash
 hciconfig
 ```
-`hci1:   Type: Primary  Bus: UART` >>> ***built-in Bluetooth adapter*** 
+`hci1:   Type: Primary  Bus: UART` >>> ***built-in Bluetooth adapter***  
 `    BD Address: E4:5F:01:0D:3A:45  ACL MTU: 1021:8  SCO MTU: 64:1`  
 `    UP RUNNING PSCAN ISCAN` >>> ***works***  
 `    RX bytes:3780 acl:0 sco:0 events:397 errors:0`  
 `    TX bytes:67416 acl:0 sco:0 commands:397 errors:0`  
 
-`hci0:   Type: Primary  Bus: USB` >>> ***external USB Bluetooth adapter*** 
+`hci0:   Type: Primary  Bus: USB` >>> ***external USB Bluetooth adapter***  
 `    BD Address: 00:1A:7D:DA:71:13  ACL MTU: 679:8  SCO MTU: 48:16`  
-`    DOWN` >>> ***doesn't work*** 
+`    DOWN` >>> ***doesn't work***  
 `    RX bytes:3322355 acl:5664 sco:0 events:277 errors:0`  
 `    TX bytes:5985 acl:187 sco:0 commands:71 errors:0`  
 
 The USB Bluetooth adapter is detected as "hci0", so it needs to be unlocked.  
+
+
 2. Check if it is blocked at the soft level  
 ```bash
 rfkill list
