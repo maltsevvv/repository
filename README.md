@@ -1,10 +1,29 @@
 <img src="image/home.png" alt="home" width="250"> <img src="image/list.png" alt="list" width="250"> <img src="image/settings.png" alt="settings" width="250">
 
 [![Raspberry - Bookworm](https://img.shields.io/badge/Raspberry-Bookworm_Lite-blue?logo=raspberrypi&logoColor=red)](https://downloads.raspberrypi.com/raspios_oldstable_lite_arm64/images/raspios_oldstable_lite_arm64-2025-10-02/2025-10-01-raspios-bookworm-arm64-lite.img.xz)
-[![KODI_20-skin.rnspi](https://img.shields.io/badge/KODI_20-skin.rnspi-red?logo=kodi)](https://github.com/maltsevvv/repository/raw/refs/heads/master/kodi20/skin.rnspi/skin.rnspi-20.0.8.zip) ✅ stable version
+[![KODI_20-skin.rnspi](https://img.shields.io/badge/KODI_20-skin.rnspi-red?logo=kodi)](https://github.com/maltsevvv/repository/raw/refs/heads/master/kodi20/skin.rnspi/skin.rnspi-20.0.9.zip) ✅ stable version
 ---
 ![Raspberry - Trixie](https://img.shields.io/badge/Raspberry-Trixie_(Lite)-blue?logo=raspberrypi&logoColor=red)
-[![KODI_21-skin.rnspi](https://img.shields.io/badge/KODI_21-skin.rnspi-red?logo=kodi)](https://github.com/maltsevvv/repository/raw/refs/heads/master/kodi21/skin.rnspi/skin.rnspi-21.0.8.zip) ‼️test version
+[![KODI_21-skin.rnspi](https://img.shields.io/badge/KODI_21-skin.rnspi-red?logo=kodi)](https://github.com/maltsevvv/repository/raw/refs/heads/master/kodi21/skin.rnspi/skin.rnspi-21.0.9.zip) ‼️test version
+---
+
+<details>
+  <summary>Last version 0.9</summary>
+  <p>0.9</p>
+  <ul>
+    <li> - Access to repository updates has been changed. To update, while in the Add-ons section, press the left arrow in the interface.</li>
+  </ul>
+  <p>0.8</p>
+  <ul>
+    <li> - Added control for RNS MFD</li>
+    <li> - Changed the logic of the RNSE buttons. Long press > 10 messages</li>
+    <li> - Added display of internet connection on the home screen, without the option to disable it</li>
+    <li> - Changed the display of RPI CPU temp</li>
+    <li> - Changed everything and added it to settings</li>
+    <li> - CAN interface settings, now in the skin interface settings</li>
+    <li> - Removed the CAN menu from the HOME menu</li>
+  </ul>
+</details>
 ---
 [![KODI_repository](https://img.shields.io/badge/KODI_repository-red?logo=kodi)](https://github.com/maltsevvv/repository/raw/refs/heads/master/repository.rnspi.zip)
 ---
@@ -13,21 +32,6 @@
 wget -P /tmp https://raw.githubusercontent.com/maltsevvv/repository/master/install.sh
 sudo bash /tmp/install.sh
 ```
----
-## last version 0.9
-- 0.9
-    - Access to repository updates has been changed. To update, while in the Add-ons section, press the left arrow in the interface.
-- 0.8
-    - Added control for RNS MFD
-- 0.7
-    - Changed the logic of the RNSE buttons. Long press > 10 messages
-    - Added display of internet connection on the home screen, without the option to disable it
-- 0.6
-    - Changed the display of RPI CPU temp
-    - Changed everything and added it to settings
-    - CAN interface settings, now in the skin interface settings
-    - Removed the CAN menu from the HOME menu
-
 ---
 ## [Detailed information on the website](https://sites.google.com/view/rnspi/)
 ## [Minimum set of components](https://github.com/maltsevvv/repository/wiki)
