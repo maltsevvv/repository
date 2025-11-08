@@ -8,6 +8,12 @@
 ---
 [![KODI_repository](https://img.shields.io/badge/KODI_repository-red?logo=kodi)](https://github.com/maltsevvv/repository/raw/refs/heads/master/repository.rnspi.zip)
 ---
+### Auto install
+```bash
+wget -P /tmp https://raw.githubusercontent.com/maltsevvv/repository/master/install.sh
+sudo bash /tmp/install.sh
+```
+---
 ## last version 0.9
 - 0.9
     - Access to repository updates has been changed. To update, while in the Add-ons section, press the left arrow in the interface.
@@ -22,13 +28,8 @@
     - CAN interface settings, now in the skin interface settings
     - Removed the CAN menu from the HOME menu
 
-### Auto install
-```bash
-wget -P /tmp https://raw.githubusercontent.com/maltsevvv/repository/master/install.sh
-sudo bash /tmp/install.sh
-```
 ---
-[Подробная информация на сайте](https://sites.google.com/view/rnspi/)
+[Detailed information on the website](https://sites.google.com/view/rnspi/)
 ---
 
 1. [Wiring diagram for connecting modules to the Raspberry PI](#raspberry-PI-connect-modules)
