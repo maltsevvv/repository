@@ -29,7 +29,8 @@ sudo bash /tmp/install.sh
     - Removed the CAN menu from the HOME menu
 
 ---
-[Detailed information on the website](https://sites.google.com/view/rnspi/)
+## [Detailed information on the website](https://sites.google.com/view/rnspi/)
+## [Minimum set of components](https://github.com/maltsevvv/repository/wiki)
 ---
 
 1. [Wiring diagram for connecting modules to the Raspberry PI](#raspberry-PI-connect-modules)
