@@ -34,19 +34,17 @@ sudo bash /tmp/install.sh
 </details>
 
 ---
-## [Detailed information on the website](https://sites.google.com/view/rnspi/)
-## [Minimum set of components](https://github.com/maltsevvv/repository/wiki)
----
-
-1. [Wiring diagram for connecting modules to the Raspberry PI](#raspberry-PI-connect-modules)
-2. [Connection diagram of modules with RNS](#connect-to-rns)
-3. [Configuring CAN data display](#configuring-can-data-display)
-4. [Control buttons](#control-button-rns)
-5. [Bluetooth](#bluetooth)
+1. [Detailed information on the website](https://sites.google.com/view/rnspi/)
+2. [Minimum set of components](https://github.com/maltsevvv/repository/wiki)
+3. [Wiring diagram for connecting modules to the Raspberry PI](#raspberry-PI-connect-modules)
+4. [Connection diagram of modules with RNS](#connect-to-rns)
+5. [Configuring CAN data display](#configuring-can-data-display)
+5. [Control buttons](#control-button-rns)
+7. [Bluetooth](#bluetooth)
     - [Add device](#bluetooth_add)
     - [Remove a previously connected device](#bluetooth_del)
     - [Checking usb bluetooth adapter](#bluetooth-usb-adapter)
-6. [There is no image on the PC monitor or home TV.](#not-image-monitor-or-tv)
+8. [There is no image on the PC monitor or home TV.](#not-image-monitor-or-tv)
   
 ---
 ### Configuring CAN data display   
