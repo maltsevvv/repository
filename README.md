@@ -24,6 +24,7 @@
     <li> - Removed the CAN menu from the HOME menu</li>
   </ul>
 </details>
+
 ---
 [![KODI_repository](https://img.shields.io/badge/KODI_repository-red?logo=kodi)](https://github.com/maltsevvv/repository/raw/refs/heads/master/repository.rnspi.zip)
 ---
