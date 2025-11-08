@@ -1,3 +1,10 @@
+### Auto install
+```bash
+wget -P /tmp https://raw.githubusercontent.com/maltsevvv/repository/master/install.sh
+sudo bash /tmp/install.sh
+```
+---
+
 <img src="image/home.png" alt="home" width="250"> <img src="image/list.png" alt="list" width="250"> <img src="image/settings.png" alt="settings" width="250">
 
 [![Raspberry - Bookworm](https://img.shields.io/badge/Raspberry-Bookworm_Lite-blue?logo=raspberrypi&logoColor=red)](https://downloads.raspberrypi.com/raspios_oldstable_lite_arm64/images/raspios_oldstable_lite_arm64-2025-10-02/2025-10-01-raspios-bookworm-arm64-lite.img.xz)
@@ -26,12 +33,6 @@
   </ul>
 </details>
 
----
-### Auto install
-```bash
-wget -P /tmp https://raw.githubusercontent.com/maltsevvv/repository/master/install.sh
-sudo bash /tmp/install.sh
-```
 ---
 ## [Detailed information on the website](https://sites.google.com/view/rnspi/)
 ## [Minimum set of components](https://github.com/maltsevvv/repository/wiki)
