@@ -23,7 +23,7 @@ sudo bash /tmp/install.sh
 2. [Connection diagram of modules with RNS](#connect-to-rns)
 3. [Configuring CAN data display](#configuring-can-data-display)
 4. [Control buttons](#control-button-rns)
-5. [Bluetooth]
+5. [Bluetooth](#bluetooth)
     - [Add device](#bluetooth_add)
     - [Remove a previously connected device](#bluetooth_del)
     - [Checking usb bluetooth adapter](#bluetooth-usb-adapter)
