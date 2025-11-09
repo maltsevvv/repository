@@ -97,7 +97,7 @@ sudo bash /tmp/install.sh
 
 ## Bluetooth  
 
-### Bluetooth_add device  
+### Bluetooth add device  
 ##### Connecting to Bluetooth should work without any problems, but sometimes it doesn't work, so you have to connect manually.
 ```bash
 sudo bluetoothctl
