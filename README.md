@@ -16,7 +16,15 @@ sudo bash /tmp/install.sh
 [![KODI_repository](https://img.shields.io/badge/KODI_repository-red?logo=kodi)](https://github.com/maltsevvv/repository/raw/refs/heads/master/repository.rnspi.zip)
 
 <details>
-  <summary>Last version 0.9</summary>
+  <summary>Last version 1.0</summary>
+  <p>1.0</p>
+  <ul>
+    <li> - Fix show time (24)</li>
+    <li> - Fix show rpm</li>
+    <li> - Add control MB Command 2.0</li>
+    <li> - For MB Command 2.0, long press '>' 6 msg</li>
+  </ul>
+  
   <p>0.9</p>
   <ul>
     <li> - Access to repository updates has been changed. To update, while in the Add-ons section, press the left arrow in the interface.</li>
@@ -57,42 +65,46 @@ sudo bash /tmp/install.sh
 
 ### Control button RNS
 
-|   RNSE   |   RNSD   |    MFD    |  time  |   KODI   |
-|----------|----------|-----------|--------|----------|
-| 🔘 ↪️ ↩️  | 🔘 ↪️ ↩️  | 🔘 ↪️ ↩️  |        | 🔼 🔽    |
-| | | | | |
-| 🔘 press | 🔘 press | 🔘 press | < 1sec | Select   |
-| 🔘 press | 🔘 press | 🔘 press | > 1sec | C.Menu / 🎦 OSD |  
-| | | | | |
-| ⬛🔼    | UP        | 4        | < 1sec | Up       |
-| ⬛🔼    | UP        | 4        | > 1sec | 🎦🎵+skeep |
-| | | | | |
-| ⬛🔽    | DOWN      | 5        | < 1sec | Down     | 
-| ⬛🔽    | DOWN      | 5        | > 1sec | 🎦🎵-skeep |
-| | | | | |
-| Previous | LEFT      | Previous | < 1sec | Left     |  
-| Previous | LEFT      | Previous | > 1sec | 🎦🎵Prev |
-| | | | | |
-| Next     | RIGHT     | Next     | < 1sec | Right     |
-| Next     | RIGHT     | Next     | > 1sec | 🎦🎵Next |
-| | | | | |
-| RETURN   | RETURN    | Exit     | < 1sec | Back      |
-| RETURN   | RETURN    | Exit     | > 1sec | 🎦🎵Stop |
-| | | | | |
-| SETUP    | MODE      | 6        | < 1sec | C.Menu / 🎦 OSD |  
-| SETUP    | MODE      | 6        | > 1sec | Skin Settings |
-| | | | | |
-|          | AS        | AS       | < 1sec | Select    |
-|          | AS        | AS       | > 1sec | C.Menu / 🎦 OSD | 
-| | | | | |
-|          | +         | 1        | < 1sec | 🎦🎵Next |  
-|          | +         | 1        | > 1sec |           |  
-| | | | | |
-|          | -         | 2        | < 1sec | 🎦🎵Prev |  
-|          | -         | 2        | > 1sec |           |  
-| | | | | |
-|          |           | 3        | < 1sec | Back      |  
-|          |           | 3        | > 1sec | 🎦🎵Stop |  
+|   RNSE   |   RNSD   |    MFD    |  MB 2.0 |  time  |   KODI   |
+|----------|----------|-----------|--------|--------|----------|
+| 🔘 ↪️ ↩️  | 🔘 ↪️ ↩️  | 🔘 ↪️ ↩️   | 🔘 ↪️ ↩️ |        | 🔼 🔽    |
+| | | | | | |
+| 🔘 press | 🔘 press | 🔘 press | 🔘 press | < 1sec | Select   |
+| 🔘 press | 🔘 press | 🔘 press | 🔘 press | > 1sec | C.Menu / 🎦 OSD |  
+| | | | | | |
+| ⬛🔼    | UP        | 4        | 2         | < 1sec | Up       |
+| ⬛🔼    | UP        | 4        | 2         | > 1sec | 🎦🎵+skeep Big |
+| | | | | | |
+| ⬛🔽    | DOWN      | 5        | 8         | < 1sec | Down     | 
+| ⬛🔽    | DOWN      | 5        | 8         | > 1sec | 🎦🎵-skeep Big |
+| | | | | | |
+| Previous | LEFT      | Previous | 4         | < 1sec | Left     |  
+| Previous | LEFT      | Previous | 4         | > 1sec | 🎦🎵Prev, BT Prev |
+| | | | | | |
+| Next     | RIGHT     | Next     | 6         | < 1sec | Right     |
+| Next     | RIGHT     | Next     | 6         | > 1sec | 🎦🎵Next, BT Next |
+| | | | | | |
+| RETURN   | RETURN    | Exit     | RET       | < 1sec | Back      |
+| RETURN   | RETURN    | Exit     | RET       | > 1sec | 🎦🎵Stop, BT Disconnect |
+| | | | | | |
+| SETUP    | MODE      | 6        | 0         | < 1sec | C.Menu / 🎦 OSD |  
+| SETUP    | MODE      | 6        | 0         | > 1sec | Skin Settings |
+| | | | | | |
+|          | AS        | AS       | 5         | < 1sec | Select    |
+|          | AS        | AS       | 5          | > 1sec | C.Menu / 🎦 OSD | 
+| | | | | | |
+|          | +         | 1        | Next      | < 1sec | 🎦🎵Next, BT Next |  
+| | | | | | |
+|          | -         | 2        | Previous  | < 1sec | 🎦🎵Prev, BT Prev |  
+| | | | | | |
+|          |           | 3        |            | < 1sec | Back      |  
+|          |           | 3        |            | > 1sec | 🎦🎵Stop |  
+| | | | | | |
+|          |           |          | 1          | < 1sec | 🎦🎵+skeep Small |  
+|          |           |          | 1          | > 1sec | 🎦🎵+skeep Big |  
+| | | | | | |  
+|          |           |          | 7          | < 1sec | 🎦🎵-skeep Small |  
+|          |           |          | 7          | > 1sec | 🎦🎵-skeep Big |  
 ---
 
 ## Bluetooth  
