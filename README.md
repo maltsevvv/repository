@@ -56,10 +56,17 @@ sudo bash /tmp/install.sh
   
 ---
 ### Configuring CAN data display   
+Настройки интерфейса CAN перенесены в   
 `Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin...` or open `Skin Settings`
 
-#### Disabling HDMI-CEC notification on boot  
-`Settings ️➡️ System ➡️ Input ➡️ Peripherals ➡️ CEC ➡️ Enable OFF`  
+Для обновления Repository   
+`Settings ➡️ Add-ons ➡️ PRESS LEFT ➡️ Check for Updates`
+
+Для обновления новой версии RNSPI из Repository   
+`Settings ➡️ Add-ons ➡️ Install from repository ➡️ Repository RNSPI ➡️ Look and feel ➡️ Skin ➡️ Skin RNSPI ➡️ Version`
+
+Отключение оповещения HDMI-CEC при загрузке  
+`Settings ️➡️ System ➡️ Input ➡️ Peripherals ➡️ CEC ➡️ Enable OFF` 
 
 ---
 
