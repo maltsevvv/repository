@@ -22,7 +22,7 @@ sudo bash /tmp/install.sh
     <li> - Fix show time (24)</li>
     <li> - Fix show rpm</li>
     <li> - Add control MB Command 2.0</li>
-    <li> - For MB Command 2.0, long press '>' 6 msg</li>
+    <li> - For MB Command 2.0, long press '>' 2sec.</li>
   </ul>
   
   <p>0.9</p>
