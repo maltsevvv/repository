@@ -56,16 +56,16 @@ sudo bash /tmp/install.sh
   
 ---
 ### Configuring CAN data display   
-Настройки интерфейса CAN перенесены в   
+CanBus interface settings   
 `Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin...` or open `Skin Settings`
 
-Для обновления Repository   
+To update Repository   
 `Settings ➡️ Add-ons ➡️ PRESS LEFT ➡️ Check for Updates`
 
-Для обновления новой версии RNSPI из Repository   
+To update to a new version of RNSPI from the Repository   
 `Settings ➡️ Add-ons ➡️ Install from repository ➡️ Repository RNSPI ➡️ Look and feel ➡️ Skin ➡️ Skin RNSPI ➡️ Version`
 
-Отключение оповещения HDMI-CEC при загрузке  
+Disabling HDMI-CEC notification on boot  
 `Settings ️➡️ System ➡️ Input ➡️ Peripherals ➡️ CEC ➡️ Enable OFF` 
 
 ---
