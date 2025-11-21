@@ -514,7 +514,7 @@ kodi_configure() {
     
     # 8. Replace sources.xml with custom media sources
     echo "     Replacing sources.xml with custom media sources..."
-    cat > /home/$user/.kodi/userdata/sources.xml << 'EOF'
+    cat > /home/$user/.kodi/userdata/sources.xml << EOF
 <sources>
     <programs>
         <default pathversion="1"></default>
@@ -523,22 +523,22 @@ kodi_configure() {
         <default pathversion="1"></default>
         <source>
             <name>movies</name>
-            <path pathversion="1">/home/pi/movies/</path>
+            <path pathversion="1">/home/$user/movies/</path>
             <allowsharing>true</allowsharing>
         </source>
         <source>
             <name>tvshows</name>
-            <path pathversion="1">/home/pi/tvshows/</path>
+            <path pathversion="1">/home/$user/tvshows/</path>
             <allowsharing>true</allowsharing>
         </source>
         <source>
             <name>clips</name>
-            <path pathversion="1">/home/pi/clips/</path>
+            <path pathversion="1">/home/$user/clips/</path>
             <allowsharing>true</allowsharing>
         </source>
         <source>
             <name>mults</name>
-            <path pathversion="1">/home/pi/mults/</path>
+            <path pathversion="1">/home/$user/mults/</path>
             <allowsharing>true</allowsharing>
         </source>
     </video>
@@ -546,7 +546,7 @@ kodi_configure() {
         <default pathversion="1"></default>
         <source>
             <name>music</name>
-            <path pathversion="1">/home/pi/music/</path>
+            <path pathversion="1">/home/$user/music/</path>
             <allowsharing>true</allowsharing>
         </source>
     </music>
