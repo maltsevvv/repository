@@ -283,11 +283,7 @@ EOF
         green "     CAN0 & Bitrate 83333 (83.333K) already exists. Skipping."
     fi
 }
-        green "     CAN0 & Bitrate 100000 (100K) added. ✅"
-    else
-        green "     CAN0 & Bitrate 100000 (100K) already exists. Skipping."
-    fi
-}
+
 # Function run CAN0
 can0_service_run() {
     echo "     Restart 80-can.network service..."
