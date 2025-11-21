@@ -514,7 +514,7 @@ kodi_configure() {
     
     # 8. Replace sources.xml with custom media sources
     echo "     Replacing sources.xml with custom media sources..."
-    cat > /home/$user/.kodi/userdata/sources.xml << 'EOF'
+    cat > /home/$user/.kodi/userdata/sources.xml << "EOF"
 <sources>
     <programs>
         <default pathversion="1"></default>
