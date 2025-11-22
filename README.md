@@ -218,7 +218,7 @@ sudo nano /etc/asound.conf
 ---
 
 ## Connect to Mercedes Command 2.0
-<img src="image/comand_2.0.png" alt="Connect to MB COMMAND 2.0" width="250" title="COMMAND2.0">
+<img src="image/command_2.0_rns.png" alt="COMMAND 2.0" width="300" title="RNS_COMMAND2.0"> <img src="image/comand_2.0.png" alt="Connect to MB COMMAND 2.0" width="250" title="COMMAND2.0">
 
 ---
 
