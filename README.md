@@ -211,9 +211,14 @@ sudo nano /etc/asound.conf
 <img src="image/mcp2515sn230.png" alt="Connect to RPI MCP2515(SN65HVD230) and PCM5201" width="400" title="Connect to RPI MCP2515(SN65HVD230) and PCM5201"> <img src="image/mcp2515tja1050.png" alt="Connect to RPI MCP2515(tja1050) and PCM5201" width="400" title="Connect to RPI MCP2515(tja1050) and PCM5201">
 
 ---
-## Connect to RNS
+## Connect to VAG RNS
 <img src="image/rnsd.png" alt="Connect to RNSD" width="250" title="RNSD"> <img src="image/rnse.png" alt="Connect to RNSE" width="250" title="RNSE">
 <img src="image/rnsjp3.png" alt="Connect to RNSJP3" width="250" title="RNSJP3">
+---
+
+## Connect to Mercedes Command 2.0
+<img src="image/comand_2.0.png" alt="Connect to MB COMMAND 2.0" width="250" title="COMMAND2.0">
+
 ---
 
 ## Not image monitor or tv
