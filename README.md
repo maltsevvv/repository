@@ -213,8 +213,11 @@ sudo nano /etc/asound.conf
 
 ---
 ## Connect to VAG RNS
-<img src="image/rnsd.png" alt="Connect to RNSD" width="250" title="RNSD"> <img src="image/rnse.png" alt="Connect to RNSE" width="250" title="RNSE">
-<img src="image/rnsjp3.png" alt="Connect to RNSJP3" width="250" title="RNSJP3">
+<img src="image/rns/rnsd.png" alt="RNSD" width="300" title="RNSD"> <img src="image/rnsd.png" alt="Connect to RNSD" width="250" title="RNSD">  
+<img src="image/rns/rns_mfd.png" alt="RNS-MFD" width="300" title="RNS MFD"> <img src="image/rnsd.png" alt="Connect to RNS-MFD" width="250" title="RNSD_MFD">  
+<img src="image/rns/rnse.png" alt="RNSE" width="300" title="RNSE"> <img src="image/rnse.png" alt="Connect to RNSE" width="250" title="RNSE">  
+<img src="image/rns/rns_jp3.png" alt="RNS-JP3" width="300" title="RNS JP3"> <img src="image/rnsjp3.png" alt="Connect to RNSJP3" width="250" title="RNSJP3">
+
 ---
 
 ## Connect to Mercedes Command 2.0
