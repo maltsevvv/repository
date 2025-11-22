@@ -46,7 +46,7 @@ sudo bash /tmp/install.sh
 2. [Minimum set of components](https://github.com/maltsevvv/repository/wiki)
 3. [Wiring diagram for connecting modules to the Raspberry PI](#raspberry-PI-connect-modules)
 4. [Connection diagram of modules with VAG RNS](#connect-to-vag-rns)
-5. [Connect diagram of modules withe Mercedes COMMAND 2.0](#connect-to-mercedes-command-2.0)
+5. [Connect diagram of modules withe Mercedes COMMAND 2.0](#connect-to-mercedes-command)
 6. [Configuring CAN data display](#configuring-can-data-display)
 5. [Control buttons](#control-button-rns)
 7. [Bluetooth](#bluetooth)
