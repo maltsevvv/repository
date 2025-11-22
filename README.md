@@ -69,6 +69,14 @@ To update to a new version of RNSPI from the Repository
 Disabling HDMI-CEC notification on boot  
 `Settings ️➡️ System ➡️ Input ➡️ Peripherals ➡️ CEC ➡️ Enable OFF` 
 
+For Mercedes Command 2.0
+`Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Emulation ➡️ Emulation TV-tuner RNSD ✅`  
+`Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Control ➡️ MB Command 2.0 ✅`
+
+For RNS MFD
+`Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Emulation ➡️ Emulation TV-tuner RNSD ✅`  
+`Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Control ➡️ MFD ✅`
+
 ---
 
 ### Control button RNS
