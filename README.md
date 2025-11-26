@@ -8,15 +8,16 @@ sudo bash /tmp/install.sh
 <img src="image/home.png" alt="home" width="250"> <img src="image/list.png" alt="list" width="250"> <img src="image/settings.png" alt="settings" width="250">
 
 [![Raspberry - Bookworm](https://img.shields.io/badge/Raspberry-Bookworm_Lite-blue?logo=raspberrypi&logoColor=red)](https://downloads.raspberrypi.com/raspios_oldstable_lite_arm64/images/raspios_oldstable_lite_arm64-2025-10-02/2025-10-01-raspios-bookworm-arm64-lite.img.xz)
-[![KODI_20-skin.rnspi](https://img.shields.io/badge/KODI_20-skin.rnspi-red?logo=kodi)](https://github.com/maltsevvv/repository/raw/refs/heads/master/kodi20/skin.rnspi/skin.rnspi-20.0.9.zip) ✅ stable version
+[![KODI_20-skin.rnspi](https://img.shields.io/badge/KODI_20-skin.rnspi-red?logo=kodi)](https://github.com/maltsevvv/repository/raw/refs/heads/master/kodi20/skin.rnspi/skin.rnspi-20.1.2.zip) ✅ stable version
 ---
 ![Raspberry - Trixie](https://img.shields.io/badge/Raspberry-Trixie_(Lite)-blue?logo=raspberrypi&logoColor=red)
-[![KODI_21-skin.rnspi](https://img.shields.io/badge/KODI_21-skin.rnspi-red?logo=kodi)](https://github.com/maltsevvv/repository/raw/refs/heads/master/kodi21/skin.rnspi/skin.rnspi-21.0.9.zip) ‼️test version
+[![KODI_21-skin.rnspi](https://img.shields.io/badge/KODI_21-skin.rnspi-red?logo=kodi)](https://github.com/maltsevvv/repository/raw/refs/heads/master/kodi21/skin.rnspi/skin.rnspi-21.1.2.zip) ‼️test version
 
 [![KODI_repository](https://img.shields.io/badge/KODI_repository-red?logo=kodi)](https://github.com/maltsevvv/repository/raw/refs/heads/master/repository.rnspi.zip)
 
-## <details>
-  <summary>Changes.Last version 1.2</summary>
+
+<details>
+   <summary><strong>Changes.Last version 1.2</strong></summary>
   <p>1.2</p>
   <ul>
     <li> - Add timing change for long press button:<br> For RNSD, RNS-MFD ["0.2", "0.4", "0.6", "0.8", "1"]<br>Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Control ➡️ - long press for RNSD, MFD: 0.4 sec.<br>For RNSE, COMMAND 2.0 ["2", "4", "6", "8", "10"]<br>Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Control ➡️ - long press for RNSE, COMMAND: 4 msg.</li>
