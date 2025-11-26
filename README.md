@@ -76,15 +76,26 @@ To update to a new version of RNSPI from the Repository
 `Settings ➡️ Add-ons ➡️ Install from repository ➡️ Repository RNSPI ➡️ Look and feel ➡️ Skin ➡️ Skin RNSPI ➡️ Version`
 
 Disabling HDMI-CEC notification on boot  
-`Settings ️➡️ System ➡️ Input ➡️ Peripherals ➡️ CEC ➡️ Enable OFF` 
+`Settings ️➡️ System ➡️ Input ➡️ Peripherals ➡️ CEC Adapter ➡️ Switch source to this device on startup OFF ❌` 
+
+For RNS-D  
+`Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Emulation ➡️ Emulation TV-tuner RNSD ✅`  
+`Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Control ➡️ RNSD Control ✅`
+
+For RNS-E  
+`Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Emulation ➡️ Emulation TV-tuner RNSE ✅`  
+`Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Control ➡️ RNSE Control ✅`
+
+For RNS-MFD  
+`Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Emulation ➡️ Emulation TV-tuner RNSD ✅`  
+`Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Control ➡️ MFD Control ✅`
 
 For Mercedes Command 2.0  
 `Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Emulation ➡️ Emulation TV-tuner RNSD ✅`  
-`Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Control ➡️ MB Command 2.0 ✅`
+`Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Control ➡️ Command 2.0 Control ✅`
 
-For RNS MFD  
-`Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Emulation ➡️ Emulation TV-tuner RNSD ✅`  
-`Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Control ➡️ MFD ✅`
+For RNS-JP3  
+`Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Control ➡️ RNS-JP3 Control ✅`  
 
 ---
 
