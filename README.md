@@ -17,7 +17,7 @@ sudo bash /tmp/install.sh
 
 
 <details>
-   <summary><strong>Changes.Last version 1.2</strong></summary>
+   <summary><strong>Last version 1.2. Changes</strong></summary>
   <p>1.2</p>
   <ul>
     <li> - Add timing change for long press button:<br> For RNSD, RNS-MFD ["0.2", "0.4", "0.6", "0.8", "1"]<br>Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Control ➡️ - long press for RNSD, MFD: 0.4 sec.<br>For RNSE, COMMAND 2.0 ["2", "4", "6", "8", "10"]<br>Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Control ➡️ - long press for RNSE, COMMAND: 4 msg.</li>
