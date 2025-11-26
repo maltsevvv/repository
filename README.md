@@ -87,7 +87,7 @@ For RNS MFD
 
 ---
 
-### RNS control button, versions *.1.2 and later
+### RNS control button, versions *.1.2 and newer
 
 |   RNSE   |   RNSD   |    MFD    | COMMAND |  time  |   KODI   |
 |----------|----------|-----------|--------|--------|----------|
