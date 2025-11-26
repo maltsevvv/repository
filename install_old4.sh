@@ -5,8 +5,8 @@
 
 user="$SUDO_USER"
 
-skin_kodi20=20.1.0
-skin_kodi21=21.1.0
+skin_kodi20=20.1.1
+skin_kodi21=21.1.1
 
 # Function for green text output
 green() {
