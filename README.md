@@ -91,24 +91,24 @@ For RNS MFD
 
 |   RNSE   |   RNSD   |    MFD    | COMMAND |  time  |   KODI   |
 |----------|----------|-----------|--------|--------|----------|
-| 🔘 ↪️ ↩️  | 🔘 ↪️ ↩️  | 🔘 ↪️ ↩️   | 🔘 ↪️ ↩️|        | 🔼 🔽    |
+| 🔘 ↪️ ↩️  | 🔘 ↪️ ↩️  | 🔘 ↪️ ↩️   | 🔘 ↪️ ↩️|        | UP / DOWN    |
 | | | | | | |
-| 🔘 press | 🔘 press, AS | 🔘 press, AS | 🔘 press, <img src="image/buttons/5.png" width="50"> | < 1sec | Select   |
-| 🔘 press | 🔘 press, AS | 🔘 press, AS | 🔘 press, <img src="image/buttons/5.png" width="50"> | > 1sec | C.Menu / 🎦 OSD |  
+| 🔘 press | 🔘 press, AS | 🔘 press, AS | 🔘 press, <img src="image/buttons/5.png" width="50"> | < 1sec | SELECT   |
+| 🔘 press | 🔘 press, AS | 🔘 press, AS | 🔘 press, <img src="image/buttons/5.png" width="50"> | > 1sec | Context Menu / 🎦 OSD |  
 | | | | | | |
-| <img src="image/buttons/up_rnse.png" width="50"> | <img src="image/buttons/up_rnsd.png" width="50"> | <img src="image/buttons/4.png" width="50"> | <img src="image/buttons/2.png" width="50">  | < 1sec | Up       |
+| <img src="image/buttons/up_rnse.png" width="50"> | <img src="image/buttons/up_rnsd.png" width="50"> | <img src="image/buttons/4.png" width="50"> | <img src="image/buttons/2.png" width="50">  | < 1sec | UP       |
 | <img src="image/buttons/up_rnse.png" width="50"> | <img src="image/buttons/up_rnsd.png" width="50"> | <img src="image/buttons/4.png" width="50"> | <img src="image/buttons/2.png" width="50"> | > 1sec | 🎦,🎵 Big Skip Forward |
 | | | | | | |
-| <img src="image/buttons/down_rnse.png" width="50"> | <img src="image/buttons/down_rnsd.png" width="50"> | <img src="image/buttons/5.png" width="50"> | <img src="image/buttons/8.png" width="50"> | < 1sec | Down     | 
+| <img src="image/buttons/down_rnse.png" width="50"> | <img src="image/buttons/down_rnsd.png" width="50"> | <img src="image/buttons/5.png" width="50"> | <img src="image/buttons/8.png" width="50"> | < 1sec | DOWN     | 
 | <img src="image/buttons/down_rnse.png" width="50"> | <img src="image/buttons/down_rnsd.png" width="50"> | <img src="image/buttons/5.png" width="50"> | <img src="image/buttons/8.png" width="50"> | > 1sec | 🎦,🎵 Big Skip Backward |
 | | | | | | |
-| <img src="image/buttons/prev.png" width="50"> | <img src="image/buttons/prev.png" width="50"> | <img src="image/buttons/prev_mfd.png" width="50"> | <img src="image/buttons/prev.png" width="50">, <img src="image/buttons/4.png" width="50"> | < 1sec | Left     |  
+| <img src="image/buttons/prev.png" width="50"> | <img src="image/buttons/prev.png" width="50"> | <img src="image/buttons/prev_mfd.png" width="50"> | <img src="image/buttons/prev.png" width="50">, <img src="image/buttons/4.png" width="50"> | < 1sec | LEFT     |  
 | <img src="image/buttons/prev.png" width="50"> | <img src="image/buttons/prev.png" width="50"> | <img src="image/buttons/prev_mfd.png" width="50"> | <img src="image/buttons/prev.png" width="50">, <img src="image/buttons/4.png" width="50"> | > 1sec | 🎦,🎵,BT Previous |
 | | | | | | |
-| <img src="image/buttons/next.png" width="50"> | <img src="image/buttons/next.png" width="50"> | <img src="image/buttons/next_mfd.png" width="50"> | <img src="image/buttons/next.png" width="50">, <img src="image/buttons/6.png" width="50">   | < 1sec | Right     |
+| <img src="image/buttons/next.png" width="50"> | <img src="image/buttons/next.png" width="50"> | <img src="image/buttons/next_mfd.png" width="50"> | <img src="image/buttons/next.png" width="50">, <img src="image/buttons/6.png" width="50">   | < 1sec | RIGHT     |
 | <img src="image/buttons/next.png" width="50"> | <img src="image/buttons/next.png" width="50"> | <img src="image/buttons/next_mfd.png" width="50"> | <img src="image/buttons/next.png" width="50">, <img src="image/buttons/6.png" width="50">   | > 1sec | 🎦,🎵,BT Next |
 | | | | | | |
-| <img src="image/buttons/return.png" width="50"> | <img src="image/buttons/return.png" width="50"> | <img src="image/buttons/return_mfd.png" width="50">, <img src="image/buttons/3.png" width="50">  | <img src="image/buttons/ret.png" width="50">  | < 1sec | Back      |
+| <img src="image/buttons/return.png" width="50"> | <img src="image/buttons/return.png" width="50"> | <img src="image/buttons/return_mfd.png" width="50">, <img src="image/buttons/3.png" width="50">  | <img src="image/buttons/ret.png" width="50">  | < 1sec | BACK      |
 | <img src="image/buttons/return.png" width="50"> | <img src="image/buttons/return.png" width="50"> | <img src="image/buttons/return_mfd.png" width="50">, <img src="image/buttons/3.png" width="50">  | <img src="image/buttons/ret.png" width="50"> | > 1sec | 🎦,🎵,BT Stop |
 | | | | | | |
 | <img src="image/buttons/setup.png" width="50"> | <img src="image/buttons/mode.png" width="50"> | <img src="image/buttons/scan.png" width="50">, <img src="image/buttons/6.png" width="50"> | <img src="image/buttons/0.png" width="50"> | < 1sec | Context Menu / 🎦 OSD |  
