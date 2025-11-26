@@ -94,7 +94,7 @@ For RNS MFD
 | 🔘 ↪️ ↩️  | 🔘 ↪️ ↩️  | 🔘 ↪️ ↩️   | 🔘 ↪️ ↩️|        | 🔼 🔽    |
 | | | | | | |
 | 🔘 press | 🔘 press, AS | 🔘 press, AS | 🔘 press, <img src="image/buttons/5.png" width="50"> | < 1sec | Select   |
-| 🔘 press | 🔘 press, AS | 🔘 press, AS | 🔘 press, <img src="image/buttons/5.png" width="50">5 | > 1sec | C.Menu / 🎦 OSD |  
+| 🔘 press | 🔘 press, AS | 🔘 press, AS | 🔘 press, <img src="image/buttons/5.png" width="50"> | > 1sec | C.Menu / 🎦 OSD |  
 | | | | | | |
 | <img src="image/buttons/up_rnse.png" width="50"> | <img src="image/buttons/up_rnsd.png" width="50"> | <img src="image/buttons/4.png" width="50"> | <img src="image/buttons/2.png" width="50">  | < 1sec | Up       |
 | <img src="image/buttons/up_rnse.png" width="50"> | <img src="image/buttons/up_rnsd.png" width="50"> | <img src="image/buttons/4.png" width="50"> | <img src="image/buttons/2.png" width="50"> | > 1sec | 🎦,🎵 Big Skip Forward |
