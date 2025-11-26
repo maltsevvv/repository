@@ -87,7 +87,45 @@ For RNS MFD
 
 ---
 
-### Control button RNS
+### RNS control button, versions *.1.2 and later
+
+|   RNSE   |   RNSD   |    MFD    | COMMAND |  time  |   KODI   |
+|----------|----------|-----------|--------|--------|----------|
+| 🔘 ↪️ ↩️  | 🔘 ↪️ ↩️  | 🔘 ↪️ ↩️   | 🔘 ↪️ ↩️|        | 🔼 🔽    |
+| | | | | | |
+| 🔘 press | 🔘 press, AS | 🔘 press, AS | 🔘 press, 5 | < 1sec | Select   |
+| 🔘 press | 🔘 press, AS | 🔘 press, AS | 🔘 press, 5 | > 1sec | C.Menu / 🎦 OSD |  
+| | | | | | |
+| Г      | 🔼          | 4        | 2         | < 1sec | Up       |
+| Г      | 🔼          | 4        | 2         | > 1sec | 🎦,🎵 Big Skip Forward |
+| | | | | | |
+| L      | 🔽          | 5        | 8         | < 1sec | Down     | 
+| L      | 🔽          | 5        | 8         | > 1sec | 🎦,🎵 Big Skip Backward |
+| | | | | | |
+| <img src="image/buttons/prev.png" width="50"> | <img src="image/buttons/prev.png" width="50"> | <img src="image/buttons/prev_mfd.png" width="50"> | <img src="image/buttons/prev.png" width="50">, <img src="image/buttons/4.png" width="50"> | < 1sec | Left     |  
+| <img src="image/buttons/prev.png" width="50"> | <img src="image/buttons/prev.png" width="50"> | <img src="image/buttons/prev_mfd.png" width="50"> | <img src="image/buttons/prev.png" width="50">, <img src="image/buttons/4.png" width="50"> | > 1sec | 🎦,🎵,BT Previous |
+| | | | | | |
+| <img src="image/buttons/next.png" width="50"> | <img src="image/buttons/next.png" width="50"> | <img src="image/buttons/next_mfd.png" width="50"> | <img src="image/buttons/next.png" width="50">, <img src="image/buttons/6.png" width="50">   | < 1sec | Right     |
+| <img src="image/buttons/next.png" width="50"> | <img src="image/buttons/next.png" width="50"> | <img src="image/buttons/next_mfd.png" width="50"> | <img src="image/buttons/next.png" width="50">, <img src="image/buttons/6.png" width="50">   | > 1sec | 🎦,🎵,BT Next |
+| | | | | | |
+| RETURN   | RETURN    | EXIT, 3  | RET       | < 1sec | Back      |
+| RETURN   | RETURN    | EXIT, 3  | RET       | > 1sec | 🎦,🎵,BT Stop |
+| | | | | | |
+| SETUP    | MODE      | SCAN, 6  | 0         | < 1sec | Context Menu / 🎦 OSD |  
+| SETUP    | MODE      | SCAN, 6  | 0         | > 1sec | Skin Settings |
+| | | | | | |
+|          | ➕        | 1        | 1         | < 1sec | 🎦,🎵 Small Skip Forward |  
+|          | ➕        | 1        | 1         | > 1sec | 🎦,🎵 Big Skip Forward | 
+| | | | | | |
+|          | ➖        | 2        | 7         | < 1sec | 🎦,🎵 Small Skip Backward |  
+|          | ➖        | 2        | 7         | > 1sec | 🎦,🎵 Big Skip Backward |  
+| | | | | | |
+
+---
+
+
+
+### Control button RNS to version *.1.1 (old)
 
 |   RNSE   |   RNSD   |    MFD    |  MB 2.0 |  time  |   KODI   |
 |----------|----------|-----------|--------|--------|----------|
