@@ -94,6 +94,9 @@ For Mercedes Command 2.0
 `Settings`➡️`Interface`➡️`Skin`➡️`-Configure skin...`➡️`Emulation`➡️`Emulation TV-tuner RNSD` `✅`  
 `Settings`➡️`Interface`➡️`Skin`➡️`-Configure skin...`➡️`Control`➡️`Command 2.0 Control` `✅`
 
+Change time long press for button  
+`Settings`➡️`Interface`➡️`Skin`➡️`-Configure skin...`➡️`Control`➡️`-time long press...` `Default 0.4sec. or 4msg.`
+
 For RNS-JP3  
 `Settings`➡️`Interface`➡️`Skin`➡️`-Configure skin...`➡️`Control`➡️`RNS-JP3 Control` `✅`  
 
@@ -101,13 +104,13 @@ For RNS-JP3
 
 ### RNS control button, versions *.1.2 and newer
 
-|   RNSE  |   RNSD   |    MFD    | COMMAND |  time  |   KODI   |
+|   RNSE  |   RNSD   |    MFD    | COMMAND |  press  |   KODI   |
 |---------|----------|-----------|---------|--------|----------|
 | | | | | | |
-|🔘 ↪️ ↩️  | 🔘 ↪️ ↩️ | 🔘 ↪️ ↩️ | 🔘 ↪️ ↩️   |        | 🔼 / 🔽 |
+| `🔘 ↪️ ↩️` | `🔘 ↪️ ↩️` | `🔘 ↪️ ↩️` | `🔘 ↪️ ↩️` |        | 🔼 / 🔽 |
 | | | | | | |
-| `🔘` | `🔘` `AS` | `🔘` `AS` | `🔘` `5` | < 1sec | 🆗   |
-| `🔘` | `🔘` `AS` | `🔘` `AS` | `🔘` `5` | > 1sec | Context Menu / 🎦 OSD |  
+| `🔘` | `🔘` `AS` | `🔘` `AS` | `🔘` `5` | < 1sec. | 🆗 |
+| `🔘` | `🔘` `AS` | `🔘` `AS` | `🔘` `5` | > 1sec. | Context Menu / 🎦 OSD |  
 | | | | | | |
 | `Г` | `🔼` | `🔼` | `2` | < 1sec | 🔼       |
 | `Г` | `🔼` | `🔼` | `2` | > 1sec | 🎦,🎵 Big Skip Forward |
