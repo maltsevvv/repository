@@ -123,7 +123,7 @@ For RNS-JP3
 | <img src="image/buttons/return.png" width="40"> | <img src="image/buttons/return.png" width="40"> | <img src="image/buttons/return_mfd.png" width="40">, <img src="image/buttons/3.png" width="40">  | <img src="image/buttons/ret.png" width="40">  | < 1sec | BACK      |
 | <img src="image/buttons/return.png" width="40"> | <img src="image/buttons/return.png" width="40"> | <img src="image/buttons/return_mfd.png" width="40">, <img src="image/buttons/3.png" width="40">  | <img src="image/buttons/ret.png" width="40"> | > 1sec | 🎦,🎵 ⏹️, BT Disconnect |
 | | | | | | |
-| <img src="image/buttons/setup.png" width=40"> | <img src="image/buttons/mode.png" width="40"> | <img src="image/buttons/scan.png" width="40">, <img src="image/buttons/6.png" width="40"> | <img src="image/buttons/0.png" width="40"> | < 1sec | Context Menu / 🎦 OSD |  
+| <img src="image/buttons/setup.png" width="40"> | <img src="image/buttons/mode.png" width="40"> | <img src="image/buttons/scan.png" width="40">, <img src="image/buttons/6.png" width="40"> | <img src="image/buttons/0.png" width="40"> | < 1sec | Context Menu / 🎦 OSD |  
 | <img src="image/buttons/setup.png" width="40"> | <img src="image/buttons/mode.png" width="40"> | <img src="image/buttons/scan.png" width="40">, <img src="image/buttons/6.png" width="40"> | <img src="image/buttons/0.png" width="40"> | > 1sec | Skin Settings |
 | | | | | | |
 |          | <img src="image/buttons/plus.png" width="40"> | <img src="image/buttons/1.png" width="40"> | <img src="image/buttons/1.png" width="40"> | < 1sec | 🎦,🎵 Small Skip Forward |  
