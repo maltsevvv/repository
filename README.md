@@ -20,11 +20,11 @@ sudo bash /tmp/install.sh
    <summary><strong>Changes</strong></summary>
   <p>1.2</p>
   <ul>
-    <li> - Add timing change for long press button:<br><br> For RNSD, RNS-MFD ["0.2", "0.4", "0.6", "0.8", "1"]<br>Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Control ➡️ - long press for RNSD, MFD: 0.4 sec.<br><br>For RNSE, COMMAND 2.0 ["2", "4", "6", "8", "10"]<br>Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Control ➡️ - long press for RNSE, COMMAND: 4 msg.</li>
+    <li> - Add timing change for long press button:<br><br> For RNSD, RNS-MFD ["0.2", "0.4", "0.6", "0.8", "1"]<br>Settings➡️Interface➡️Skin➡️-Configure skin...➡️Control➡️- long press for RNSD, MFD: 0.4 sec.<br><br>For RNSE, COMMAND 2.0 ["2", "4", "6", "8", "10"]<br>Settings➡️Interface➡️Skin➡️-Configure skin...➡️Control➡️- long press for RNSE, COMMAND: 4 msg.</li>
   </ul>
   <p>1.1</p>
   <ul>
-    <li> - Added the ability to choose the color of a button when it is selected<br>Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Background/Colour ➡️ Edit Background colour Buttons</li>
+    <li> - Added the ability to choose the color of a button when it is selected<br>Settings➡️Interface➡️Skin➡️-Configure skin...➡️Background/Colour➡️Edit Background colour Buttons</li>
   </ul>
   <p>1.0</p>
   <ul>
@@ -67,35 +67,35 @@ sudo bash /tmp/install.sh
 ---
 ### Configuring CAN data display   
 CanBus interface settings   
-`Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin...` or open `Skin Settings`
+`Settings➡️Interface➡️Skin➡️-Configure skin...` or open `Skin Settings`
 
 To update Repository   
-`Settings ➡️ Add-ons ➡️ PRESS LEFT ➡️ Check for Updates`
+`Settings➡️Add-ons➡️PRESS LEFT➡️Check for Updates`
 
 To update to a new version of RNSPI from the Repository   
-`Settings ➡️ Add-ons ➡️ Install from repository ➡️ Repository RNSPI ➡️ Look and feel ➡️ Skin ➡️ Skin RNSPI ➡️ Version`
+`Settings➡️Add-ons➡️Install from repository➡️Repository RNSPI➡️Look and feel➡️Skin➡️Skin RNSPI➡️Version`
 
 Disabling HDMI-CEC notification on boot  
-`Settings ️➡️ System ➡️ Input ➡️ Peripherals ➡️ CEC Adapter ➡️ Switch source to this device on startup OFF ❌` 
+`Settings➡️System➡️Input➡️Peripherals➡️CEC Adapter➡️Switch source to this device on startup OFF ❌` 
 
 For RNS-D  
-`Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Emulation ➡️ Emulation TV-tuner RNSD ✅`  
-`Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Control ➡️ RNSD Control ✅`
+`Settings➡️Interface➡️Skin➡️-Configure skin...➡️Emulation➡️Emulation TV-tuner RNSD ✅`  
+`Settings➡️Interface➡️Skin➡️-Configure skin...➡️Control➡️RNSD Control ✅`
 
 For RNS-E  
-`Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Emulation ➡️ Emulation TV-tuner RNSE ✅`  
-`Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Control ➡️ RNSE Control ✅`
+`Settings➡️Interface➡️Skin➡️-Configure skin...➡️Emulation➡️Emulation TV-tuner RNSE ✅`  
+`Settings➡️Interface➡️Skin➡️-Configure skin...➡️Control➡️RNSE Control ✅`
 
 For RNS-MFD  
-`Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Emulation ➡️ Emulation TV-tuner RNSD ✅`  
-`Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Control ➡️ MFD Control ✅`
+`Settings➡️Interface➡️Skin➡️-Configure skin...➡️Emulation➡️Emulation TV-tuner RNSD ✅`  
+`Settings➡️Interface➡️Skin➡️-Configure skin...➡️Control➡️MFD Control ✅`
 
 For Mercedes Command 2.0  
-`Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Emulation ➡️ Emulation TV-tuner RNSD ✅`  
-`Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Control ➡️ Command 2.0 Control ✅`
+`Settings➡️Interface➡️Skin➡️-Configure skin...➡️Emulation➡️Emulation TV-tuner RNSD ✅`  
+`Settings➡️Interface➡️Skin➡️-Configure skin...➡️Control➡️Command 2.0 Control ✅`
 
 For RNS-JP3  
-`Settings ➡️ Interface ➡️ Skin ➡️ -Configure skin... ➡️ Control ➡️ RNS-JP3 Control ✅`  
+`Settings➡️Interface➡️Skin➡️-Configure skin...➡️Control➡️RNS-JP3 Control ✅`  
 
 ---
 
