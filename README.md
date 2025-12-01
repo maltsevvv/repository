@@ -108,8 +108,8 @@ For RNS-JP3
 | 🔘 press | 🔘 press, <img src="image/buttons/as.png" width="40"> | 🔘 press, <img src="image/buttons/as.png" width="40"> | 🔘 press, <img src="image/buttons/5.png" width="40"> | < 1sec | 🆗   |
 | 🔘 press | 🔘 press, <img src="image/buttons/as.png" width="40"> | 🔘 press, <img src="image/buttons/as.png" width="40"> | 🔘 press, <img src="image/buttons/5.png" width="40"> | > 1sec | Context Menu / 🎦 OSD |  
 | | | | | | |
-| <img src="image/buttons/up_rnse.png" width="50"> | <img src="image/buttons/up_rnsd.png" width="50"> | <img src="image/buttons/4.png" width="50"> | <img src="image/buttons/2.png" width="50">  | < 1sec | 🔼       |
-| <img src="image/buttons/up_rnse.png" width="50"> | <img src="image/buttons/up_rnsd.png" width="50"> | <img src="image/buttons/4.png" width="50"> | <img src="image/buttons/2.png" width="50"> | > 1sec | 🎦,🎵 Big Skip Forward |
+| <img src="image/buttons/up_rnse.png" width="40"> | <img src="image/buttons/up_rnsd.png" width="40"> | <img src="image/buttons/4.png" width="40"> | <img src="image/buttons/2.png" width="40">  | < 1sec | 🔼       |
+| <img src="image/buttons/up_rnse.png" width="40"> | <img src="image/buttons/up_rnsd.png" width="40"> | <img src="image/buttons/4.png" width="40"> | <img src="image/buttons/2.png" width="40"> | > 1sec | 🎦,🎵 Big Skip Forward |
 | | | | | | |
 | <img src="image/buttons/down_rnse.png" width="50"> | <img src="image/buttons/down_rnsd.png" width="50"> | <img src="image/buttons/5.png" width="50"> | <img src="image/buttons/8.png" width="50"> | < 1sec | 🔽     | 
 | <img src="image/buttons/down_rnse.png" width="50"> | <img src="image/buttons/down_rnsd.png" width="50"> | <img src="image/buttons/5.png" width="50"> | <img src="image/buttons/8.png" width="50"> | > 1sec | 🎦,🎵 Big Skip Backward |
