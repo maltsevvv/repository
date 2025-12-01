@@ -111,26 +111,26 @@ For RNS-JP3
 | <img src="image/buttons/up_rnse.png" width="40"> | <img src="image/buttons/up_rnsd.png" width="40"> | <img src="image/buttons/4.png" width="40"> | <img src="image/buttons/2.png" width="40">  | < 1sec | 🔼       |
 | <img src="image/buttons/up_rnse.png" width="40"> | <img src="image/buttons/up_rnsd.png" width="40"> | <img src="image/buttons/4.png" width="40"> | <img src="image/buttons/2.png" width="40"> | > 1sec | 🎦,🎵 Big Skip Forward |
 | | | | | | |
-| <img src="image/buttons/down_rnse.png" width="50"> | <img src="image/buttons/down_rnsd.png" width="50"> | <img src="image/buttons/5.png" width="50"> | <img src="image/buttons/8.png" width="50"> | < 1sec | 🔽     | 
-| <img src="image/buttons/down_rnse.png" width="50"> | <img src="image/buttons/down_rnsd.png" width="50"> | <img src="image/buttons/5.png" width="50"> | <img src="image/buttons/8.png" width="50"> | > 1sec | 🎦,🎵 Big Skip Backward |
+| <img src="image/buttons/down_rnse.png" width="40"> | <img src="image/buttons/down_rnsd.png" width="40"> | <img src="image/buttons/5.png" width="40"> | <img src="image/buttons/8.png" width="40"> | < 1sec | 🔽     | 
+| <img src="image/buttons/down_rnse.png" width="40"> | <img src="image/buttons/down_rnsd.png" width="40"> | <img src="image/buttons/5.png" width="40"> | <img src="image/buttons/8.png" width="40"> | > 1sec | 🎦,🎵 Big Skip Backward |
 | | | | | | |
-| <img src="image/buttons/prev.png" width="50"> | <img src="image/buttons/prev.png" width="50"> | <img src="image/buttons/prev_mfd.png" width="50"> | <img src="image/buttons/prev.png" width="50">, <img src="image/buttons/4.png" width="50"> | < 1sec | ◀️     |  
-| <img src="image/buttons/prev.png" width="50"> | <img src="image/buttons/prev.png" width="50"> | <img src="image/buttons/prev_mfd.png" width="50"> | <img src="image/buttons/prev.png" width="50">, <img src="image/buttons/4.png" width="50"> | > 1sec | 🎦,🎵,BT ⏮️ |
+| <img src="image/buttons/prev.png" width="40"> | <img src="image/buttons/prev.png" width="40"> | <img src="image/buttons/prev_mfd.png" width="40"> | <img src="image/buttons/prev.png" width="40">, <img src="image/buttons/4.png" width="40"> | < 1sec | ◀️     |  
+| <img src="image/buttons/prev.png" width="40"> | <img src="image/buttons/prev.png" width="40"> | <img src="image/buttons/prev_mfd.png" width="40"> | <img src="image/buttons/prev.png" width="40">, <img src="image/buttons/4.png" width="40"> | > 1sec | 🎦,🎵,BT ⏮️ |
 | | | | | | |
-| <img src="image/buttons/next.png" width="50"> | <img src="image/buttons/next.png" width="50"> | <img src="image/buttons/next_mfd.png" width="50"> | <img src="image/buttons/next.png" width="50">, <img src="image/buttons/6.png" width="50">   | < 1sec | ▶️     |
-| <img src="image/buttons/next.png" width="50"> | <img src="image/buttons/next.png" width="50"> | <img src="image/buttons/next_mfd.png" width="50"> | <img src="image/buttons/next.png" width="50">, <img src="image/buttons/6.png" width="50">   | > 1sec | 🎦,🎵,BT ⏭️ |
+| <img src="image/buttons/next.png" width="40"> | <img src="image/buttons/next.png" width="40"> | <img src="image/buttons/next_mfd.png" width="40"> | <img src="image/buttons/next.png" width="40">, <img src="image/buttons/6.png" width="40">   | < 1sec | ▶️     |
+| <img src="image/buttons/next.png" width="40"> | <img src="image/buttons/next.png" width="40"> | <img src="image/buttons/next_mfd.png" width="40"> | <img src="image/buttons/next.png" width="40">, <img src="image/buttons/6.png" width="40">   | > 1sec | 🎦,🎵,BT ⏭️ |
 | | | | | | |
-| <img src="image/buttons/return.png" width="50"> | <img src="image/buttons/return.png" width="50"> | <img src="image/buttons/return_mfd.png" width="50">, <img src="image/buttons/3.png" width="50">  | <img src="image/buttons/ret.png" width="50">  | < 1sec | BACK      |
-| <img src="image/buttons/return.png" width="50"> | <img src="image/buttons/return.png" width="50"> | <img src="image/buttons/return_mfd.png" width="50">, <img src="image/buttons/3.png" width="50">  | <img src="image/buttons/ret.png" width="50"> | > 1sec | 🎦,🎵 ⏹️, BT Disconnect |
+| <img src="image/buttons/return.png" width="40"> | <img src="image/buttons/return.png" width="40"> | <img src="image/buttons/return_mfd.png" width="40">, <img src="image/buttons/3.png" width="40">  | <img src="image/buttons/ret.png" width="40">  | < 1sec | BACK      |
+| <img src="image/buttons/return.png" width="40"> | <img src="image/buttons/return.png" width="40"> | <img src="image/buttons/return_mfd.png" width="40">, <img src="image/buttons/3.png" width="40">  | <img src="image/buttons/ret.png" width="40"> | > 1sec | 🎦,🎵 ⏹️, BT Disconnect |
 | | | | | | |
-| <img src="image/buttons/setup.png" width="50"> | <img src="image/buttons/mode.png" width="50"> | <img src="image/buttons/scan.png" width="50">, <img src="image/buttons/6.png" width="50"> | <img src="image/buttons/0.png" width="50"> | < 1sec | Context Menu / 🎦 OSD |  
-| <img src="image/buttons/setup.png" width="50"> | <img src="image/buttons/mode.png" width="50"> | <img src="image/buttons/scan.png" width="50">, <img src="image/buttons/6.png" width="50"> | <img src="image/buttons/0.png" width="50"> | > 1sec | Skin Settings |
+| <img src="image/buttons/setup.png" width=40"> | <img src="image/buttons/mode.png" width="40"> | <img src="image/buttons/scan.png" width="40">, <img src="image/buttons/6.png" width="40"> | <img src="image/buttons/0.png" width="40"> | < 1sec | Context Menu / 🎦 OSD |  
+| <img src="image/buttons/setup.png" width="40"> | <img src="image/buttons/mode.png" width="40"> | <img src="image/buttons/scan.png" width="40">, <img src="image/buttons/6.png" width="40"> | <img src="image/buttons/0.png" width="40"> | > 1sec | Skin Settings |
 | | | | | | |
-|          | <img src="image/buttons/plus.png" width="50"> | <img src="image/buttons/1.png" width="50"> | <img src="image/buttons/1.png" width="50"> | < 1sec | 🎦,🎵 Small Skip Forward |  
-|          | <img src="image/buttons/plus.png" width="50"> | <img src="image/buttons/1.png" width="50"> | <img src="image/buttons/1.png" width="50"> | > 1sec | 🎦,🎵 Big Skip Forward | 
+|          | <img src="image/buttons/plus.png" width="40"> | <img src="image/buttons/1.png" width="40"> | <img src="image/buttons/1.png" width="40"> | < 1sec | 🎦,🎵 Small Skip Forward |  
+|          | <img src="image/buttons/plus.png" width="40"> | <img src="image/buttons/1.png" width="40"> | <img src="image/buttons/1.png" width="40"> | > 1sec | 🎦,🎵 Big Skip Forward | 
 | | | | | | |
-|          | <img src="image/buttons/minus.png" width="50"> | <img src="image/buttons/2.png" width="50"> | <img src="image/buttons/7.png" width="50"> | < 1sec | 🎦,🎵 Small Skip Backward |  
-|          | <img src="image/buttons/minus.png" width="50"> | <img src="image/buttons/2.png" width="50"> | <img src="image/buttons/7.png" width="50"> | > 1sec | 🎦,🎵 Big Skip Backward |  
+|          | <img src="image/buttons/minus.png" width="40"> | <img src="image/buttons/2.png" width="40"> | <img src="image/buttons/7.png" width="40"> | < 1sec | 🎦,🎵 Small Skip Backward |  
+|          | <img src="image/buttons/minus.png" width="40"> | <img src="image/buttons/2.png" width="40"> | <img src="image/buttons/7.png" width="40"> | > 1sec | 🎦,🎵 Big Skip Backward |  
 | | | | | | |
 
 ---
