@@ -67,35 +67,35 @@ sudo bash /tmp/install.sh
 ---
 ### Configuring CAN data display   
 CanBus interface settings   
-`Settings➡️Interface➡️Skin➡️-Configure skin...` or open `Skin Settings`
+`Settings`➡️`Interface`➡️`Skin`➡️`-Configure skin...` or open `Skin Settings`
 
 To update Repository   
-`Settings➡️Add-ons➡️PRESS LEFT➡️Check for Updates`
+`Settings`➡️`Add-ons`➡️`PRESS LEFT`➡️`Check for Updates`
 
 To update to a new version of RNSPI from the Repository   
-`Settings➡️Add-ons➡️Install from repository➡️Repository RNSPI➡️Look and feel➡️Skin➡️Skin RNSPI➡️Version`
+`Settings`➡️`Add-ons`➡️`Install from repository`➡️`Repository RNSPI`➡️`Look and feel`➡️`Skin`➡️`Skin RNSPI`➡️`Version`
 
 Disabling HDMI-CEC notification on boot  
-`Settings➡️System➡️Input➡️Peripherals➡️CEC Adapter➡️Switch source to this device on startup OFF ❌` 
+`Settings`➡️`System`➡️`Input`➡️`Peripherals`➡️`CEC Adapter`➡️`Switch source to this device on startup OFF` `❌` 
 
 For RNS-D  
-`Settings➡️Interface➡️Skin➡️-Configure skin...➡️Emulation➡️Emulation TV-tuner RNSD ✅`  
-`Settings➡️Interface➡️Skin➡️-Configure skin...➡️Control➡️RNSD Control ✅`
+`Settings`➡️`Interface`➡️`Skin`➡️`-Configure skin...`➡️`Emulation`➡️`Emulation TV-tuner RNSD` `✅`  
+`Settings`➡️`Interface`➡️`Skin`➡️`-Configure skin...`➡️`Control`➡️`RNSD Control` `✅`
 
 For RNS-E  
-`Settings➡️Interface➡️Skin➡️-Configure skin...➡️Emulation➡️Emulation TV-tuner RNSE ✅`  
-`Settings➡️Interface➡️Skin➡️-Configure skin...➡️Control➡️RNSE Control ✅`
+`Settings`➡️`Interface`➡️`Skin`➡️`-Configure skin...`➡️`Emulation`➡️`Emulation TV-tuner RNSE` `✅`  
+`Settings`➡️`Interface`➡️`Skin`➡️`-Configure skin...`➡️`Control`➡️`RNSE Control` `✅`
 
 For RNS-MFD  
-`Settings➡️Interface➡️Skin➡️-Configure skin...➡️Emulation➡️Emulation TV-tuner RNSD ✅`  
-`Settings➡️Interface➡️Skin➡️-Configure skin...➡️Control➡️MFD Control ✅`
+`Settings`➡️`Interface`➡️`Skin`➡️`-Configure skin...`➡️`Emulation`➡️`Emulation TV-tuner RNSD` `✅`  
+`Settings`➡️`Interface`➡️`Skin`➡️`-Configure skin...`➡️`Control`➡️`MFD Control` `✅`
 
 For Mercedes Command 2.0  
-`Settings➡️Interface➡️Skin➡️-Configure skin...➡️Emulation➡️Emulation TV-tuner RNSD ✅`  
-`Settings➡️Interface➡️Skin➡️-Configure skin...➡️Control➡️Command 2.0 Control ✅`
+`Settings`➡️`Interface`➡️`Skin`➡️`-Configure skin...`➡️`Emulation`➡️`Emulation TV-tuner RNSD` `✅`  
+`Settings`➡️`Interface`➡️`Skin`➡️`-Configure skin...`➡️`Control`➡️`Command 2.0 Control` `✅`
 
 For RNS-JP3  
-`Settings➡️Interface➡️Skin➡️-Configure skin...➡️Control➡️RNS-JP3 Control ✅`  
+`Settings`➡️`Interface`➡️`Skin`➡️`-Configure skin...`➡️`Control`➡️`RNS-JP3 Control` `✅`  
 
 ---
 
@@ -106,32 +106,32 @@ For RNS-JP3
 | | | | | | |
 |🔘 ↪️ ↩️  | 🔘 ↪️ ↩️ | 🔘 ↪️ ↩️ | 🔘 ↪️ ↩️   |        | 🔼 / 🔽 |
 | | | | | | |
-| 🔘 | 🔘, AS | 🔘, AS | 🔘, 5 | < 1sec | 🆗   |
-| 🔘 | 🔘, AS | 🔘, AS | 🔘, 5 | > 1sec | Context Menu / 🎦 OSD |  
+| `🔘` | `🔘` `AS` | `🔘` `AS` | `🔘` `5` | < 1sec | 🆗   |
+| `🔘` | `🔘` `AS` | `🔘` `AS` | `🔘` `5` | > 1sec | Context Menu / 🎦 OSD |  
 | | | | | | |
-| Г | 🔼 | 🔼 | 2 | < 1sec | 🔼       |
-| Г | 🔼 | 🔼 | 2 | > 1sec | 🎦,🎵 Big Skip Forward |
+| `Г` | `🔼` | `🔼` | `2` | < 1sec | 🔼       |
+| `Г` | `🔼` | `🔼` | `2` | > 1sec | 🎦,🎵 Big Skip Forward |
 | | | | | | |
-| L | 🔽 | 5 | 8 | < 1sec | 🔽     | 
-| L | 🔽 | 5 | 8 | > 1sec | 🎦,🎵 Big Skip Backward |
+| `L` | `🔽` | `5` | `8` | < 1sec | 🔽     | 
+| `L` | `🔽` | `5` | `8` | > 1sec | 🎦,🎵 Big Skip Backward |
 | | | | | | |
-| ◀️ | ◀️ | ◀️ | ◀️, 4 | < 1sec | ◀️     |  
-| ◀️ | ◀️ | ◀️ | ◀️, 4 | > 1sec | 🎦,🎵,BT ⏮️ |
+| `◀️` | `◀️` | `◀️` | `◀️` `4` | < 1sec | ◀️     |  
+| `◀️` | `◀️` | `◀️` | `◀️` `4` | > 1sec | 🎦,🎵,BT ⏮️ |
 | | | | | | |
-| ▶️ | ▶️ | ▶️ | ▶️, 6 | < 1sec | ▶️     |
-| ▶️ | ▶️ | ▶️ | ▶️, 6 | > 1sec | 🎦,🎵,BT ⏭️ |
+| `▶️` | `▶️` | `▶️` | `▶️` `6` | < 1sec | ▶️     |
+| `▶️` | `▶️` | `▶️` | `▶️` `6` | > 1sec | 🎦,🎵,BT ⏭️ |
 | | | | | | |
-| RETURN | RETURN | EXIT, 3 | RET | < 1sec | BACK      |
-| RETURN | RETURN | EXIT, 3 | RET | > 1sec | 🎦,🎵 ⏹️, BT Disconnect |
+| `RETURN` | `RETURN` | `EXIT` `3` | `RET` | < 1sec | BACK      |
+| `RETURN` | `RETURN` | `EXIT` `3` | `RET` | > 1sec | 🎦,🎵 ⏹️, BT Disconnect |
 | | | | | | |
-| SETUP | MODE | SCAN, 6 | 0 | < 1sec | Context Menu / 🎦 OSD |  
-| SETUP | MODE | SCAN, 6 | 0 | > 1sec | Skin Settings |
+| `SETUP` | `MODE` | `SCAN` `6` | `0` | < 1sec | Context Menu / 🎦 OSD |  
+| `SETUP` | `MODE` | `SCAN` `6` | `0` | > 1sec | Skin Settings |
 | | | | | | |
-|       | PLUS | 1 | 1 | < 1sec | 🎦,🎵 Small Skip Forward |  
-|       | PLUS | 1 | 1 | > 1sec | 🎦,🎵 Big Skip Forward | 
+|       | `PLUS` | `1` | `1` | < 1sec | 🎦,🎵 Small Skip Forward |  
+|       | `PLUS` | `1` | `1` | > 1sec | 🎦,🎵 Big Skip Forward | 
 | | | | | | |
-|       | MINUS | 2 | 7 | < 1sec | 🎦,🎵 Small Skip Backward |  
-|       | MINUS | 2 | 7 | > 1sec | 🎦,🎵 Big Skip Backward |  
+|       | `MINUS` | `2` | `7` | < 1sec | 🎦,🎵 Small Skip Backward |  
+|       | `MINUS` | `2` | `7` | > 1sec | 🎦,🎵 Big Skip Backward |  
 | | | | | | |
 
 ---
