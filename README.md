@@ -281,6 +281,25 @@ sudo nano /etc/asound.conf
 ❌ It is not recommended to use the MCP2515 with TJA1050 for Raspberry without modifications, as the module operates from 5v.  
 <img src="image/mcp2515sn230.png" alt="Connect to RPI MCP2515(SN65HVD230) and PCM5201" width="400" title="Connect to RPI MCP2515(SN65HVD230) and PCM5201"> <img src="image/mcp2515tja1050.png" alt="Connect to RPI MCP2515(tja1050) and PCM5201" width="400" title="Connect to RPI MCP2515(tja1050) and PCM5201">
 
+| RPI GPIO| PCM | CAN0 | CAN1 |
+|---------|-----|------|------|
+| 3V3     |     | VCC  | VCC  |
+| 5V      | VIN | VCC  | VCC  |
+| GND     | GND | GND  | GND  |
+| GND     | SCK |      |      |
+| GPIO 18 | BCK |      |      |
+| GPIO 19 | LCK |      |      |
+| GPIO 21 | DIN |      |      |
+| GPIO 9  |     | SO   | SO   |
+| GPIO 10 |     | SI   | SI   |
+| GPIO 11 |     | SCK  | SCK  |
+| GPIO 8  |     | CS   |      |
+| GPIO 25 |     | INT  |      |
+| GPIO 7  |     |      | CS   |
+| GPIO 24 |     |      | INT  |
+
+
+
 ---
 ## Connect to VAG RNS
 <img src="image/rns/rnsd.png" alt="RNSD" width="300" title="RNSD"> <img src="image/rnsd.png" alt="Connect to RNSD" width="250" title="RNSD">  
